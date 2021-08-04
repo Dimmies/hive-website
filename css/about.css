@@ -1,6 +1,6 @@
 #content {
     top: 0px;
-    height: 300%;
+    height: 340%;
 }
 
 #about-us {
@@ -57,6 +57,7 @@
 
 #team-listing {
     margin: 40px;
+    border-radius: 2px solid white;
 }
 
 #footer {
@@ -67,4 +68,9 @@
 
     position: absolute;
     bottom: 0;
+}
+
+#team-social {
+    position: relative;
+    margin-right: 5px;
 }

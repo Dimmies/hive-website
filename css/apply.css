@@ -1,0 +1,71 @@
+#content {
+    height: 240%;
+}
+
+#page-title {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+
+    font-size: 50px;
+    padding: 0; margin: 0;
+
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+#page-desc {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+
+    font-size: 13px;
+    padding: 0; margin: 0;
+    margin-bottom: 80px;
+}
+
+#apply-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#ss-grid {
+    flex-direction: row;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+#apply-card {
+    margin: 20px;
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    width: 300px; height: 400px;
+
+    background-color: #13151a;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+    padding: 20px;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+#card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#card-btn {
+    background-color: #bc9323;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+
+    padding: 10px 20px;
+    transition: .2s ease;
+}
+
+#card-desc {
+    /* display: none; */
+    margin: 20px 0px 50px 0px;
+}

@@ -6,6 +6,8 @@
 
         <title>Hive Roleplay</title>
 
+        <script src="./libs/jquery.min.js"></script>
+
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/about.css">
 
@@ -18,13 +20,12 @@
     <body>
 
         <div id="content">
-
             <div id="navbar">
                 <a id="nav-btn" href="./index.html">HOME</a>
                 <a id="nav-btn" href="./about.html">ABOUT US</a>
                 <img id="nav-img" src="./assets/hivelogo_512.png">
                 <a id="nav-btn" href="https://discord.gg/8JjR4zfeKT" target="_blank">DISCORD</a>
-                <a id="nav-btn" href="#">APPLY</a>
+                <a id="nav-btn" href="./apply.html">APPLY</a>
             </div>
 
             <h2 id="team-list-name" style="text-align: center;">ABOUT US</h2>
@@ -35,26 +36,37 @@
             <span style="height: 50px;"></span>
 
             <div id="ss-grid">
+                <h2 id="team-list-name">FOUNDERS</h2>
+                <div class="team-list" id="team-dev">
+                    <div id="team-listing"><img id="team-img" src="./assets/defaultprofile.png"><p>Jaysome <br> Founder</p></div>
+                    <div id="team-listing"><img id="team-img" src="./assets/geo.png"><p>Geo <br> Founder</p> <a id="team-social" href="https://twitter.com/Geoverse_"><i class="fab fa-twitter"></i></a> <a id="team-social" href="https://www.twitch.tv/ge0verse"><i class="fab fa-twitch"></i></a></div>
+                    <div id="team-listing"><img id="team-img" src="./assets/rasta.png"><p>Rasta <br> Founder</p> <a id="team-social" href="https://twitter.com/RastaRafikii"><i class="fab fa-twitter"></i></a> <a id="team-social" href="https://www.twitch.tv/rasta"><i class="fab fa-twitch"></i></a></div>
+                    <div id="team-listing"> <img id="team-img" src="./assets/dimmies.png"> <p>Dimmies <br> Founder</p> <a id="team-social" href="https://twitter.com/DimmiesTV"><i class="fab fa-twitter"></i></a> <a id="team-social" href="https://www.twitch.tv/dimmiestv"><i class="fab fa-twitch"></i></a></div>
+                </div>
+
+                <span style="height: 50px;"></span>
+
                 <h2 id="team-list-name">DEVELOPERS</h2>
                 <div class="team-list" id="team-dev">
-                    <div id="team-listing"><img id="team-img" src="./assets/dimmies.png"><p>Dimmies <br> Lead Developer</p></div>
+                    <div id="team-listing"><img id="team-img" src="./assets/dimmies.png"><p>Dimmies <br> Lead Gameplay Developer</p> <a id="team-social" href="https://twitter.com/DimmiesTV"><i class="fab fa-twitter"></i></a> <a id="team-social" href="https://www.twitch.tv/dimmiestv"><i class="fab fa-twitch"></i></a></div>
+                    <div id="team-listing"><img id="team-img" src="./assets/defaultprofile.png"><p>Dazzer <br> Jr. Map Developer</p></div>
                 </div>
 
                 <span style="height: 50px;"></span>
 
                 <h2 id="team-list-name">COMMUNITY MANAGERS</h2>
                 <div class="team-list" id="team-cm">
-                    <div id="team-listing"><img id="team-img" src="./assets/defaultprofile.png"><p>Cody <br> Community Manager</p></div>
-                    <div id="team-listing"><img id="team-img" src="./assets/defaultprofile.png"><p>Curtis <br> Community Manager</p></div>
+                    <div id="team-listing"><img id="team-img" src="./assets/cody.png"><p>Cody <br> Community Manager</p></div>
+                    <div id="team-listing"><img id="team-img" src="./assets/curtis.png"><p>Curtis <br> Community Manager</p> <a id="team-social" href="https://twitter.com/LazrikOnTwitch"><i class="fab fa-twitter"></i></a> <a id="team-social" href="https://www.twitch.tv/Lazrik"><i class="fab fa-twitch"></i></a></div>
                 </div>
 
                 <span style="height: 50px;"></span>
 
                 <h2 id="team-list-name">HEAD ADMINS</h2>
                 <div class="team-list" id="team-ha">
-                    <div id="team-listing"><img id="team-img" src="./assets/defaultprofile.png"><p>Brody <br> Head Admin</p></div>
+                    <div id="team-listing"><img id="team-img" src="./assets/brody.png"><p>Brody <br> Head Admin</p> <a id="team-social" href="https://twitter.com/xBrodyxS"><i class="fab fa-twitter"></i></a> <a id="team-social" href="https://www.twitch.tv/xbrodyxs"><i class="fab fa-twitch"></i></a></div>
                     <div id="team-listing"><img id="team-img" src="./assets/defaultprofile.png"><p>Tupa <br> Head Admin</p></div>
-                    <div id="team-listing"><img id="team-img" src="./assets/defaultprofile.png"><p>Pyotr <br> Head Admin</p></div>
+                    <div id="team-listing"><img id="team-img" src="./assets/pyotr.png"><p>Pyotr <br> Head Admin</p></div>
                 </div>
 
                 <span style="height: 50px;"></span>
@@ -79,7 +91,7 @@
         </div>
 
 
-        <script src="./js/index.js" type="module"></script>
-        <script src="./js/about.js" type="module"></script>
+        <script src="./js/index.js"></script>
+        <script src="./js/about.js"></script>
     </body>
 </html>
