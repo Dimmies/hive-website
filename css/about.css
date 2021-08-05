@@ -1,6 +1,7 @@
 #content {
     top: 0px;
-    height: 340%;
+
+    color: white;
 }
 
 #about-us {
@@ -44,7 +45,7 @@
 }
 
 .team-list {
-    display: flex; justify-content: center; align-items: center;
+    display: flex; justify-content: center; align-items: center; flex-wrap: wrap;
     width: 100%;
     /* background-color: red; */
 
@@ -66,8 +67,7 @@
 
     display: flex; justify-content: center; align-items: center; flex-direction: column;
 
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
 
 #team-social {

@@ -17,7 +17,7 @@ button {
     overflow: hidden;
 
     position: absolute;
-    top: -40%;
+    top: -350px;
 
     opacity: 0.3;
 }
@@ -62,7 +62,7 @@ button {
 #header-div {
     width: 100%;
     height: 50%;
-    background-color: rgba(255, 251, 0, 0.082);
+    background-color: #5a523e3d;
     position: absolute; display: flex; justify-content: center; align-items: center;
 }
 
@@ -81,7 +81,6 @@ button {
 #content {
     background-color: #1f222b;
 
-    height: 100%;
     width: 100%;
 
     position: absolute;
@@ -126,7 +125,7 @@ button {
     display: flex;
     justify-content: center; align-items: center;
 
-    padding: 150px 0px 0px 10px;
+    padding: 150px 0px 130px 10px;
 }
 
 #ss-grid-img {
@@ -173,15 +172,13 @@ button {
     background-color: #a78322;
 }
 
-
 #footer {
     background-color: rgba(0, 0, 0, 0.459);
     width: 100%; height: 200px;
 
     display: flex; justify-content: center; align-items: center; flex-direction: column;
 
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
 
 #footer-img {
