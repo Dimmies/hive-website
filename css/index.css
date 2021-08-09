@@ -113,7 +113,10 @@ button {
     font-family: 'Nunito', sans-serif;
     color: white;
 
-    margin: 0px 20px;
+    margin: 0px 10px;
+
+    width: 100px;
+    text-align: center;
 }
 
 #nav-btn:hover {

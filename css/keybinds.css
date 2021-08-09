@@ -1,0 +1,80 @@
+* {
+	font-family: 'Nunito', sans-serif;
+}
+
+#key-table {
+	width: 100%;
+	display: flex; justify-content: center; align-items: center; flex-direction: column;
+	text-align: center;
+	color: white;
+}
+
+th {
+	color:#D5DDE5;;
+	background:rgb(17, 19, 24);
+	border-bottom: 1px solid white;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+  
+th:first-child {
+	border-top-left-radius:3px;
+}
+   
+th:last-child {
+	border-top-right-radius:3px;
+	border-right:noness;
+}
+	
+tr {
+	border-top: 1px solid #C1C3D1;
+	border-bottom: 1px solid #C1C3D1;
+	color:#bbbbbbc7;
+	font-size:16px;
+	font-weight:normal;
+	text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+   
+tr:hover td {
+	background:#1d60dd54;
+	color:#FFFFFF;
+	border-top: 1px solid #22262e;
+}
+   
+
+tr:nth-child(odd):hover td {
+	background:#2e71ec54;
+	color:#FFFFFF;
+}
+  
+tr:last-child td:first-child {
+	border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+	border-bottom-right-radius:3px;
+}
+   
+td {
+	background: #2b2e38;
+	padding: 12px;
+	font-size: 15px;
+}
+
+tr:nth-child(odd) td {
+	background: #24262e;
+}
+  
+td:last-child {
+	border-right: 0px;
+}
+
+.tt-warn {
+	color: rgb(255, 166, 0);
+	padding-left: 5px;
+
+	vertical-align: unset;
+}

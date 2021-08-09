@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { font-family: 'Nunito', sans-serif; }
+
+#changelogs {
+	display: flex; flex-direction: column; flex-wrap: wrap; align-items: center;
+}
+
+#changelog-chunk, #changelog-chunk-legend {
+	border: 2px solid #f0c44a;
+	padding: 1px;
+	width: 50%;
+	border-radius: 2px;
+
+	list-style-type: square;
+
+	margin-bottom: 70px;
+}
+
+#chunk-header {
+	background-color: #cc9f2391;
+	height: 40px;
+	display: flex; justify-content: flex-start; align-items: center;
+	padding-left: 20px;
+}
+
+#chunk-head-icon {
+	color: white;
+    background-color: transparent;
+    float: right;
+    position: absolute;
+    right: 26%;
+}
+
+#chunk-foot {
+	color: rgb(129, 129, 129);
+	text-align: right;
+	padding-right: 20px;
+	font-size: 12px;
+}
+
+#logs-list {
+	width: 50%; height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+li {
+	display: flex; align-items: center;
+	font-size: 12px;
+}
+
+#changelog-chunk > ul > li{
+	margin-bottom: 10px;
+}
+
+.fa-virus-slash {
+	background-color: rgb(207, 106, 47);
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+.fa-plus {
+	background-color: rgb(73, 196, 73);
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+.fa-exchange-alt {
+	background-color: rgb(57, 80, 214);
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+.fa-minus {
+	background-color: rgb(214, 80, 57);
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+.fa-ellipsis-h {
+	background-color: rgb(87, 85, 124);
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+.fa-tachometer-alt {
+	background-color: rgb(221, 196, 54);
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+#change-link {
+	margin-left: 5px;
+
+	color: #f0c44a;
+	background-color: #f0c44a49;
+	padding: 3px;
+	border-radius: 50%;
+
+	transition: .2s ease;
+}
+
+#change-link:hover {
+	color: #b9983c;
+	cursor: pointer;
+}
