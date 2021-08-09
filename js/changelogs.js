@@ -40,6 +40,8 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			19: {type: "change", desc: "Blocked more weapons from dropping when killing a NPC thats holding them" },
 			20: {type: "bug", desc: "Fixed custom vehicle names showing as NULL" },
 			21: {type: "bug", desc: "Fixed Minimap showing part of it as the custom map and most of it as the default map" },
+			22: {type: "change", desc: "Rename 5th EMS Rank" },
+			23: {type: "add", desc: "Add rank 6 ems garage data" },
 		}
 	},
 
