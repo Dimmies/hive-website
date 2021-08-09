@@ -14,9 +14,38 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, August 8th 2021": {
+		version: "pre-alpha-1.17.0",
+		current: true,
+		"logs": {
+			0: {type: "add", desc: "Add Car Boosting jobs" },
+			1: {type: "change", desc: "Increased cooldown for reckless driving and shooting police alerts" },
+			2: {type: "bug", desc: "Fix weird symbols sometimes showing when loading into the server" },
+			3: {type: "remove", desc: "Removed all apartments except for Integrity" },
+			4: {type: "bug", desc: "Possibly fixed inventory item drops showing for all players instead of the one dropping the item" },
+			5: {type: "add", desc: "Added radial menu button for giving keys to the nearest player" },
+			6: {type: "bug", desc: "Fixed Putting in vehicle, pulling from vehicle" },
+			7: {type: "remove", desc: "Removed unused fishing items" },
+			8: {type: "change", desc: "Increased Injured Person blip and changed color to Red" },
+			9: {type: "change", desc: "Changed revive animation to use full body" },
+			10: {type: "bug", desc: "Added Advanced Repair Kit to EMS storage" },
+			11: {type: "optimize", desc: "Optimized Vehicle Failure script" },
+			12: {type: "bug", desc: "Fixed cleaning vehicle causing prop to get stuck in hand" },
+			13: {type: "bug", desc: "Fixed Mail Delivery job not paying player" },
+			14: {type: "bug", desc: "Fixed Route Complete notification not showing" },
+			15: {type: "change", desc: "Set Mail Delivery job payment" },
+			16: {type: "bug", desc: "Possible fixed fishing poles stacking up while fishing" },
+			17: {type: "bug", desc: "Fixed Stingray item not being given when caught" },
+			18: {type: "bug", desc: "Fixed error spitting when in an area the engine doesn't know about" },
+			19: {type: "change", desc: "Blocked more weapons from dropping when killing a NPC thats holding them" },
+			20: {type: "bug", desc: "Fixed custom vehicle names showing as NULL" },
+			21: {type: "bug", desc: "Fixed Minimap showing part of it as the custom map and most of it as the default map" },
+		}
+	},
+
 	"Friday, August 6th 2021": {
 		version: "pre-alpha-1.16.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "change", desc: "Updated PDM vehicle list/prices" },
 			1: { type: "bug", desc: "Possibly fixed PDM vehicle display names showing NULL" },
