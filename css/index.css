@@ -148,7 +148,6 @@ button {
 
 #grid-card {
     width: 350px;
-    height: 450px;
 
     justify-content: center; align-items: flex-start; flex-direction: column;
 
