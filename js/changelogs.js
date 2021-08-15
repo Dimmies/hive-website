@@ -14,9 +14,25 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Saturday, August 14th 2021": {
+		version: "alpha-1.18.0",
+		current: true,
+		"logs": {
+			1: {type: "add", desc: "Added a /uirestart command (or just uirestart in F8 console) that resets all UI." },
+			2: {type: "bug", desc: "Fixed issue where when switching characters, your radio never gets disconnected" },
+			3: {type: "bug", desc: "Fixed car boosting timer not working correctly" },
+			4: {type: "bug", desc: "Fixed EMS and Police uniform presets/locker rooms not working" },
+			5: {type: "bug", desc: "Fixed being able to access garage while in a vehicle" },
+			6: {type: "bug", desc: "Fixed issue where drops show for everyone", link: "https://github.com/TheHiveRP/HiveIssues/issues/171" },
+			7: {type: "bug", desc: "Fixed issue where new tweet input wouldn't clear after sending the tweet or cancelling" },
+			8: {type: "add", desc: "Added Radios to EMS storage" },
+			9: {type: "bug", desc: "Fixed 3D /me showing for everyone", link: "https://github.com/TheHiveRP/HiveIssues/issues/177" },
+		}
+	},
+
 	"Tuesday, August 10th 2021": {
 		version: "pre-alpha-1.18.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed house spawn selection showing `undefined`" },
 			1: { type: "change", desc: "Changed the sounds for calling / receiving a call" },
