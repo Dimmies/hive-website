@@ -14,9 +14,29 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, August 15th 2021": {
+		version: "alpha-1.20.0",
+		current: true,
+		"logs": {
+			0: {type: "change", desc: "Changed Pink Cage spawn to Integrity" },
+			1: {type: "change", desc: "Police alerts now show partial plates instead of full plates" },
+			2: {type: "change", desc: "Police alerts show longer" },
+			3: {type: "remove", desc: "Removed unfinished face sliders" },
+			4: {type: "bug", desc: "Fixed garage spawning cars in the air sometimes" },
+			5: {type: "remove", desc: "Removed switchblade from weapon shop (wasn't supposed to be there)" },
+			6: {type: "bug", desc: "Fixed some wound status labels" },
+			7: {type: "change", desc: "Lowered fuel consumption (I think theres a deeper issue to this, if fuel is still depleting super fast, let me know)" },
+			8: {type: "bug", desc: "Fixed an error with PDM (still working on stacked cars)" },
+			9: {type: "bug", desc: "Fixed ability to pay negative car payments" },
+			10: {type: "bug", desc: "Fixed being able to pay more money than you have for car payments." },
+			11: {type: "add", desc: "Added Police Blips (This hasn't been tested, let me know if theres any issues. EMS will have this soon)" },
+			12: {type: "bug", desc: "Fixed radio UI not scaling with screen resolution" },
+		}
+	},
+
 	"Saturday, August 14th 2021": {
 		version: "alpha-1.19.0",
-		current: true,
+		current: false,
 		"logs": {
 			1: {type: "add", desc: "Added a /uirestart command (or just uirestart in F8 console) that resets all UI." },
 			2: {type: "bug", desc: "Fixed issue where when switching characters, your radio never gets disconnected" },
