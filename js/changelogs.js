@@ -15,7 +15,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 	// bug / change / add / remove / misc / optimize
 
 	"Saturday, August 14th 2021": {
-		version: "alpha-1.18.0",
+		version: "alpha-1.19.0",
 		current: true,
 		"logs": {
 			1: {type: "add", desc: "Added a /uirestart command (or just uirestart in F8 console) that resets all UI." },
