@@ -15,6 +15,16 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 	// bug / change / add / remove / misc / optimize
 
 	"Sunday, August 15th 2021": {
+		version: "alpha-1.20.1",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed error when joining the server" },
+			1: { type: "bug", desc: "Fixed Gold and Diamond prices" },
+			2: { type: "change", desc: "Increased police blip update interval" },
+		}
+	},
+
+	"Sunday, August 15th 2021": {
 		version: "alpha-1.20.0",
 		current: true,
 		"logs": {
