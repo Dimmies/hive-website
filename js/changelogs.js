@@ -14,9 +14,28 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, August 16th 2021": {
+		version: "alpha-1.21.0",
+		current: true,
+		"logs": {
+			0: {type: "bug", desc: "Fixed mechanic ranks" },
+			1: {type: "change", desc: "Lowered slots win multiplier" },
+			2: {type: "change", desc: "Increased chance for slots to miss" },
+			3: {type: "ad", desc: "Added ability for mechanic boss to hire/fire/promote/demote" },
+			4: {type: "ad", desc: "Added Mechanic hop to Tire Nutz" },
+			5: {type: "add", desc: "Finished the first version of the mechanic job, if you're interested in being a mechanic, contact and Admin+" },
+			6: {type: "add", desc: "Added vehicle controls to the radial menu (door, window, light, engine, etc)" },
+			7: {type: "bug", desc: "Possibly fixed Armor not saving/loading" },
+			8: {type: "add", desc: "Added ability to purchase jerry cans from Gas Stations that can be used to fill up vehicles on the road" },
+			9: {type: "add", desc: "Completely remade PDM. For the time being, financing is no longer available, vehicles that were previously financed are now considered owned." },
+			10: {type: "add", desc: "Added blips for EMS" },
+			11: {type: "bug", desc: "Fixed 3D /me text showing for everyone" },
+		}
+	},
+
 	"Sunday, August 15th 2021": {
 		version: "alpha-1.20.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed error when joining the server" },
 			1: { type: "bug", desc: "Fixed Gold and Diamond prices" },
