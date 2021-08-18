@@ -74,6 +74,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			9: {type: "add", desc: "Completely remade PDM. For the time being, financing is no longer available, vehicles that were previously financed are now considered owned." },
 			10: {type: "add", desc: "Added blips for EMS" },
 			11: {type: "bug", desc: "Fixed 3D /me text showing for everyone" },
+			12: {type: "change", desc: "Nerfed Curtis" },
 		}
 	},
 
