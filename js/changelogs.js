@@ -14,31 +14,47 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
-	"Tuesday, August 17th 2021": {
-		version: "alpha-1.22.0",
+	"Wednesday, August 18th 2021": {
+		version: "alpha-1.23.0",
 		current: true,
 		"logs": {
-			0: {type: "bug", desc: "Fixed mechanic ranks" },
-			1: {type: "add", desc: "Added a notification that shows when an item cannot be added to your inventory due to being overweight" },
-			2: {type: "bug", desc: "Fixed Cop Check not happening before being able to lockpick house door" },
-			3: {type: "bug", desc: "Fixed an error for police alerts" },
-			4: {type: "bug", desc: "Fixed apartments sometimes not loading" },
-			5: {type: "optimize", desc: "Optimized apartments" },
-			6: {type: "bug", desc: "Fixed pearlescent paint not saving" },
-			7: {type: "bug", desc: "Fixed error in carry" },
-			8: {type: "bug", desc: "Fixed ped Player Model faces not working" },
-			9: {type: "add", desc: "Added control instructions for rotating character to clothing menu" },
-			10: {type: "bug", desc: "Fixed player model not being set when manually entering id" },
-			11: {type: "change", desc: "Lowered damage checks when vehicles spawn from garage" },
-			12: {type: "add", desc: "Added a isDead check to the phone" },
-			13: {type: "bug", desc: "Fixed recent calls list not loading if the caller wasn't a contact" },
-			14: {type: "bug", desc: "Fixed being set as 'in call' if you didn't answer the phone or manually hung up without answering" },
-			15: {type: "bug", desc: "Fixed limp not being removed after checking into the hospital" },
-			16: {type: "bug", desc: "Possibly fixed vehicle names showing as 'NULL' in PDM" },
-			17: {type: "remove", desc: "Removed ability to open NPC dialogue UI while in a vehicle" },
-			18: {type: "add", desc: "Added an ATM to the Casino" },
-			19: {type: "add", desc: "Added a NPC at the Cashier desk in the Casino" },
-			20: {type: "bug", desc: "Fixed being able to play radio clicks while dead" },
+			0: { type: "bug", desc: "Fixed mechanic ranks" },
+			1: { type: "add", desc: "Added Baseball bat and Golfclub to weapon shop" },
+			2: { type: "change", desc: "Lowered distance check for apartment door (exit)" },
+			3: { type: "bug", desc: "Possibly fixed stash inventory breaking when swapping items" },
+			4: { type: "change", desc: "Decreased price of Cleaning Kit from 150 to 30" },
+			5: { type: "add", desc: "Added missing Weed Baggies and Rolling paper to 24/7" },
+			6: { type: "bug", desc: "Fixed Cleaning Kits not working" },
+			7: { type: "bug", desc: "Fixed weed plants in apartments" },
+			8: { type: "bug", desc: "Fixed vehicle wheels popping and engines stalling when pulling vehicle from garage" },
+		}
+	},
+
+	"Tuesday, August 17th 2021": {
+		version: "alpha-1.22.0",
+		current: false,
+		"logs": {
+			0: { type: "bug", desc: "Fixed mechanic ranks" },
+			1: { type: "add", desc: "Added a notification that shows when an item cannot be added to your inventory due to being overweight" },
+			2: { type: "bug", desc: "Fixed Cop Check not happening before being able to lockpick house door" },
+			3: { type: "bug", desc: "Fixed an error for police alerts" },
+			4: { type: "bug", desc: "Fixed apartments sometimes not loading" },
+			5: { type: "optimize", desc: "Optimized apartments" },
+			6: { type: "bug", desc: "Fixed pearlescent paint not saving" },
+			7: { type: "bug", desc: "Fixed error in carry" },
+			8: { type: "bug", desc: "Fixed ped Player Model faces not working" },
+			9: { type: "add", desc: "Added control instructions for rotating character to clothing menu" },
+			10: { type: "bug", desc: "Fixed player model not being set when manually entering id" },
+			11: { type: "change", desc: "Lowered damage checks when vehicles spawn from garage" },
+			12: { type: "add", desc: "Added a isDead check to the phone" },
+			13: { type: "bug", desc: "Fixed recent calls list not loading if the caller wasn't a contact" },
+			14: { type: "bug", desc: "Fixed being set as 'in call' if you didn't answer the phone or manually hung up without answering" },
+			15: { type: "bug", desc: "Fixed limp not being removed after checking into the hospital" },
+			16: { type: "bug", desc: "Possibly fixed vehicle names showing as 'NULL' in PDM" },
+			17: { type: "remove", desc: "Removed ability to open NPC dialogue UI while in a vehicle" },
+			18: { type: "add", desc: "Added an ATM to the Casino" },
+			19: { type: "add", desc: "Added a NPC at the Cashier desk in the Casino" },
+			20: { type: "bug", desc: "Fixed being able to play radio clicks while dead" },
 		}
 	},
 
@@ -73,7 +89,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	"Sunday, August 15th 2021": {
 		version: "alpha-1.20.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: {type: "change", desc: "Changed Pink Cage spawn to Integrity" },
 			1: {type: "change", desc: "Police alerts now show partial plates instead of full plates" },
