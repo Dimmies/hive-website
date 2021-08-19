@@ -14,9 +14,25 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday, August 19th 2021 (2)": {
+		version: "alpha-1.25.0",
+		current: true,
+		"logs": {
+			0: {type: "add", desc: "Added ability to view and mark previous police/ems alerts by holding ~/`" },
+			1: {type: "add", desc: "Added ability to forcefully borrow someones shoes" },
+			2: {type: "change", desc: "Hospital Elevator now uses Eye Interact" },
+			3: {type: "optimize", desc: "Optimized loading vehicle items and glovebox items" },
+			4: {type: "change", desc: "When you steal a car, it now gets registered with the server so it doesn't vanish" },
+			5: {type: "add", desc: "Added more hospital beds (moved the current ones)" },
+			6: {type: "remove", desc: "Removed the animation from impounding a vehicle" },
+			7: {type: "add", desc: "Added a courthouse" },
+			8: {type: "bug", desc: "Fixed Weeping Willow Firework not working" },
+		}
+	},
+
 	"Thursday, August 19th 2021": {
 		version: "alpha-1.24.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "change", desc: "Selling drugs now uses Eye Interact instead of pressing E" },
 			1: { type: "bug", desc: "Fixed weed" },
