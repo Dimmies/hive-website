@@ -14,9 +14,21 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday, August 19th 2021": {
+		version: "alpha-1.24.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Selling drugs now uses Eye Interact instead of pressing E" },
+			1: { type: "bug", desc: "Fixed weed" },
+			2: { type: "bug", desc: "Fixed being able to use cleaning kit while in a car" },
+			3: { type: "change", desc: "Increased distance check for cleaning kits" },
+			4: { type: "add", desc: "Added ability to paint your car when purchasing a vehicle" },
+		}
+	},
+
 	"Wednesday, August 18th 2021": {
 		version: "alpha-1.23.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed mechanic ranks" },
 			1: { type: "add", desc: "Added Baseball bat and Golfclub to weapon shop" },
