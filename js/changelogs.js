@@ -14,9 +14,25 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday, August 19th 2021 (3)": {
+		version: "alpha-1.26.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed Mini SMG and Heavy Pistol not having images" },
+			1: { type: "add", desc: "Added police badges" },
+			2: { type: "change", desc: "Increased 24/7 safe locks from 3 to 4" },
+			3: { type: "add", desc: "Added check to make sure you can't get a bag of meth with more than 100% quality" },
+			4: { type: "bug", desc: "Fixed Bennys secondary matte colors only having chrome" },
+			5: { type: "add", desc: "Added ability to sit in some chairs with eye interact (if you find chairs that you'd like to sit in, but currently cant. Let me know what chairs!)" },
+			6: { type: "add", desc: "Added glass pipe to hardware store" },
+			7: { type: "change", desc: "When you put your hands down, you no longer stop doing every animation" },
+			8: { type: "remove", desc: "Removed vehicle controls scroll up keybind" },
+		}
+	},
+
 	"Thursday, August 19th 2021 (2)": {
 		version: "alpha-1.25.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: {type: "add", desc: "Added ability to view and mark previous police/ems alerts by holding ~/`" },
 			1: {type: "add", desc: "Added ability to forcefully borrow someones shoes" },
