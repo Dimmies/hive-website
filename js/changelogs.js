@@ -14,9 +14,39 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, August 23rd 2021": {
+		version: "alpha-1.27.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Completely remade texting from the ground up (this gave me an actual aneurysm)" },
+			1: { type: "change", desc: "Decreased weight of Jerry Cans" },
+			2: { type: "change", desc: "24/7 Robbery now alerts police as soon as the safe is hit instead of when the money is being grabbed" },
+			3: { type: "bug", desc: "Possibly fixed car boosting not deleting the vehicle sometimes" },
+			4: { type: "change", desc: "Increased chance of police being called during house robberies" },
+			5: { type: "bug", desc: "Fixed getting stuck in place when trying to sell drugs you don't have" },
+			6: { type: "bug", desc: "Yet another attempt at fixing the weird text on the top of the screen" },
+			7: { type: "add", desc: "Added 3D text to your apartment door that shows what apartment you're in" },
+			8: { type: "bug", desc: "Fixed getting doorbell ring notifications even if you're not in your apartment" },
+			9: { type: "bug", desc: "Fixed issue where you sometimes get removed from your vehicle when in Bennys and can't get back in" },
+			10: { type: "add", desc: "Added ability to pickpocket peds" },
+			11: { type: "add", desc: "Added Coffee Machines to eye interact" },
+			12: { type: "add", desc: "Added more seats to eye interact" },
+			13: { type: "bug", desc: "Fixed some colors not being dark mode on Twitter app" },
+			14: { type: "bug", desc: "Fixed not being able to pull dead people from vehicles" },
+			15: { type: "change", desc: "Lowered price of Weed Baggies" },
+			16: { type: "add", desc: "Added Armor to weapon shop" },
+			17: { type: "bug", desc: "Fixed purchased vehicles not being set as yours if you don't select a color" },
+			18: { type: "add", desc: "Added ability to purchased ID and Drivers license from Court House front desk" },
+			19: { type: "change", desc: "Increased amount of armor given when using Meth" },
+			20: { type: "bug", desc: "Fixed Speed limiter not disabling when exiting vehicle" },
+			21: { type: "bug", desc: "Possibly fixed being able to hear sirens at a distance when only lights are on" },
+			22: { type: "bug", desc: "Fixed Radio UI not working for ultra-wide resolutions" },
+		}
+	},
+
 	"Thursday, August 19th 2021 (3)": {
 		version: "alpha-1.26.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed Mini SMG and Heavy Pistol not having images" },
 			1: { type: "add", desc: "Added police badges" },
