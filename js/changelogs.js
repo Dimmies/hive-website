@@ -14,9 +14,34 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, August 25th 2021": {
+		version: "alpha-1.28.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed unemployed paying 50 instead of 10 only if your job was reset to Unemployed" },
+			1: { type: "change", desc: "Decreased amount of seeds you get when harvesting weed" },
+			2: { type: "bug", desc: "Fixed shots fired calls not being sent" },
+			3: { type: "change", desc: "Increased cooldown for Reckless Driving calls" },
+			4: { type: "bug", desc: "Attempt #500000 at fixing the weird texting showing at the top of the screen" },
+			5: { type: "change", desc: "When pressing 'X' to cancel an animation, your hands now don't go up unless you press it again." },
+			6: { type: "bug", desc: "Fixed stealing shoes not working" },
+			7: { type: "bug", desc: "Fixed still being able to use radio when it was taken from your inventory" },
+			8: { type: "bug", desc: "Fixed not being able to text someone immediately after adding them as a contact" },
+			9: { type: "change", desc: "When you receive a call, the ringtone now plays in the area meaning anyone around you can hear the ringtone" },
+			10: { type: "add", desc: "Added ability for Police to impound vehicles" },
+			11: { type: "add", desc: "Added Fire Extinguisher to Police and EMS" },
+			12: { type: "add", desc: "Added ability to rotate vehicles in PDM" },
+			13: { type: "change", desc: "Decreased price of Ammo for Police" },
+			14: { type: "change", desc: "Decreased price of Bandage and increased item count" },
+			15: { type: "change", desc: "Smoking weed now plays a weed animation instead of cigarette" },
+			16: { type: "bug", desc: "Fixed not getting rewards when pickpocketing" },
+			17: { type: "bug", desc: "Possibly fixed casino cashier spawning multiple times." },
+		}
+	},
+
 	"Monday, August 23rd 2021": {
 		version: "alpha-1.27.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Completely remade texting from the ground up (this gave me an actual aneurysm)" },
 			1: { type: "change", desc: "Decreased weight of Jerry Cans" },
