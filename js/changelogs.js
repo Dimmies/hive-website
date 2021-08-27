@@ -14,9 +14,23 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, August 27th 2021": {
+		version: "alpha-1.29.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Created a brand new, custom, MDT for police. See more here: <a href='https://imgur.com/a/TAUoryD'> &nbsp https://imgur.com/a/TAUoryD</a>" },
+			1: { type: "change", desc: "Door lock sounds now uses positional audio" },
+			2: { type: "bug", desc: "Fixed boosted cars not deleting" },
+			3: { type: "bug", desc: "Fixed crash when using Eye interact on NPC" },
+			4: { type: "add", desc: "Added chance for pickpocketed ped to have a weapon" },
+			5: { type: "change", desc: "Decreased money gained from pickpocketing" },
+			6: { type: "bug", desc: "Fixed sometimes being stuck in a random hallway while in your apartment" },
+		}
+	},
+
 	"Wednesday, August 25th 2021": {
 		version: "alpha-1.28.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed unemployed paying 50 instead of 10 only if your job was reset to Unemployed" },
 			1: { type: "change", desc: "Decreased amount of seeds you get when harvesting weed" },
