@@ -14,9 +14,32 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, August 30th 2021": {
+		version: "alpha-1.30.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed police alerts error" },
+			1: { type: "bug", desc: "Possible fixed tilde alerts list not working for some" },
+			2: { type: "bug", desc: "Fixed one of the roulette peds having no arms" },
+			3: { type: "add", desc: "Added dance10 emote" },
+			4: { type: "bug", desc: "Fixed Bennys sometimes not saving your modifications" },
+			5: { type: "add", desc: "Added plate display to garage list" },
+			6: { type: "change", desc: "When receiving a 911 call from a player, the alert now shows in chat" },
+			7: { type: "add", desc: "Added ability for police to set speed zones. This allows police to slow traffic or even completely stop traffic" },
+			8: { type: "bug", desc: "Fixed not being able to store Police or EMS Helicopters" },
+			9: { type: "add", desc: "Added a tension progress bar to fishing" },
+			10: { type: "change", desc: "Improved fishing mechanics" },
+			11: { type: "bug", desc: "Fixed search button in MDT not working" },
+			12: { type: "bug", desc: "Fixed not being able to add multiple of one charge to report in MDT" },
+			13: { type: "add", desc: "Added Park Ranger building" },
+			14: { type: "add", desc: "Added check to make sure you're alive when spawning for the first time" },
+			15: { type: "bug", desc: "Fixed multiple casino cashiers spawning" },
+		}
+	},
+
 	"Friday, August 27th 2021": {
 		version: "alpha-1.29.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Created a brand new, custom, MDT for police. See more here: <a href='https://imgur.com/a/TAUoryD'> &nbsp https://imgur.com/a/TAUoryD</a>" },
 			1: { type: "change", desc: "Door lock sounds now uses positional audio" },
