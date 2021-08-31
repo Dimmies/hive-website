@@ -14,9 +14,21 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, August 31st 2021": {
+		version: "alpha-1.31.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed East and West directions on HUD being backwards" },
+			1: { type: "add", desc: "Added brand new towing script" },
+			2: { type: "bug", desc: "Fixed no serial number being attached to weapon when buying" },
+			3: { type: "change", desc: "Decreased vehicle damage" },
+			4: { type: "bug", desc: "Fixed Scratcher UI not scaling with resolution" },
+		}
+	},
+
 	"Monday, August 30th 2021": {
 		version: "alpha-1.30.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed police alerts error" },
 			1: { type: "bug", desc: "Possible fixed tilde alerts list not working for some" },
