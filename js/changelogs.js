@@ -14,9 +14,24 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday, September 2nd 2021": {
+		version: "alpha-1.33.0",
+		current: true,
+		"logs": {
+			1: { type: "add", desc: "Added a brand new progress bar system" },
+			2: { type: "bug", desc: "Fixed the hud not scaling with resolution" },
+			3: { type: "change", desc: "Configured Vehicle Weights" },
+			4: { type: "change", desc: "Moved the inventory use/add/remove popup" },
+			5: { type: "add", desc: "Added Big Smoke at prison ;)" },
+			6: { type: "add", desc: "Added Wheelchairs" },
+			7: { type: "add", desc: "Added Painkillers to EMS storage (These stop blacking out and falling over)" },
+			8: { type: "bug", desc: "Fixed Bennys not working" },
+		}
+	},
+
 	"Wednesday, September 1st 2021": {
 		version: "alpha-1.32.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: {type: "add", desc: "Added ability to Hardcuff players" },
 			1: {type: "bug", desc: "Fixed being able to plant weed behind walls in houses/apartments" },
@@ -42,7 +57,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	"Tuesday, August 31st 2021": {
 		version: "alpha-1.31.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed East and West directions on HUD being backwards" },
 			1: { type: "add", desc: "Added brand new towing script" },
