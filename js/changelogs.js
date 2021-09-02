@@ -14,6 +14,32 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, September 1st 2021": {
+		version: "alpha-1.32.0",
+		current: true,
+		"logs": {
+			0: {type: "add", desc: "Added ability to Hardcuff players" },
+			1: {type: "bug", desc: "Fixed being able to plant weed behind walls in houses/apartments" },
+			2: {type: "bug", desc: "Fixed Police Alerts list not showing" },
+			3: {type: "add", desc: "Added confirmation when logging out from apartment" },
+			4: {type: "add", desc: "Added new Impound Map" },
+			5: {type: "add", desc: "Added new Bennys Map" },
+			6: {type: "change", desc: "Moved Impound yard to new impound map" },
+			7: {type: "optimize", desc: "Optimized Garages" },
+			8: {type: "remove", desc: "Removed unused Lower/Raise bed for tow trucks" },
+			9: {type: "add", desc: "Added another check to make sure drop markers get cleaned up when empty" },
+			10: {type: "bug", desc: "Fixed contact name not showing when getting called" },
+			11: {type: "bug", desc: "Fixed Bank balance not updating when sending a transfer" },
+			12: {type: "add", desc: "Added EMS app to send alerts to EMS" },
+			13: {type: "add", desc: "Added tattoo shops" },
+			14: {type: "remove", desc: "Removed color wheel in Car Dealer, this made it impossible to paint your vehicle again" },
+			15: {type: "change", desc: "Made vehicles sit lower on flatbeds when tower" },
+			16: {type: "bug", desc: "Fixed Store Helicopter Slide-in showing for Police and EMS when spawning a car" },
+			17: {type: "change", desc: "Seatbelt Keybind can now be changed" },
+			18: {type: "add", desc: "Added storm weather effects 10 minutes before automatic restarts" },
+		}
+	},
+
 	"Tuesday, August 31st 2021": {
 		version: "alpha-1.31.0",
 		current: true,
