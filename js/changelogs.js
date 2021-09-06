@@ -43,7 +43,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	"Saturday, September 4th 2021": {
 		version: "alpha-1.34.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: {type:"add", desc: "Added another check to clean up the weird characters that show at character selection (also added a /fixchars command that should also fix this)" },
 			1: {type:"bug", desc: "Fixed drill from Bank robbery not being deleted when finished drilling" },
