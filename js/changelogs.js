@@ -14,6 +14,33 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, September 5th 2021": {
+		version: "alpha-1.35.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added Percocets" },
+			1: { type: "change", desc: "Decreased chance NPC decline drug sale (80% > 65%)" },
+			2: { type: "change", desc: "Increased chance failed drug sales call cops (30% > 45%)" },
+			3: { type: "bug", desc: "Fixed some police alerts showing incorrect 10-codes" },
+			4: { type: "change", desc: "Eye-Interact now uses a hexagon cursor instead of an eye" },
+			5: { type: "add", desc: "Added ability for EMS to heal a nearby player" },
+			6: { type: "change", desc: "Changed all Shops to have NPCs and use the dialogue menu" },
+			7: { type: "change", desc: "Robs Liquor stores now show separate" },
+			8: { type: "bug", desc: "Fixed Tattoo shop putting on weird clothes instead of being put naked" },
+			9: { type: "bug", desc: "Fixed wheelchairs not working for anyone except the owner" },
+			10: { type: "add", desc: "Added getting knocked out for X seconds instead of dying when dying by blunt weapons" },
+			11: { type: "change", desc: "Decreased time it takes to revive (15s > 12s)" },
+			12: { type: "bug", desc: "Fixed EMS Status Check showing as default chat text" },
+			13: { type: "bug", desc: "Fixed Treating Wounds not treating all wounds" },
+			14: { type: "remove", desc: "Removed unused fish from diner" },
+			15: { type: "change", desc: "Increased distance check for repair kits (3 > 4)" },
+			16: { type: "add", desc: "Alcohol now gives effects, more alcohol intake = stronger effects. You can drink water to decrease these effects faster" },
+			17: { type: "bug", desc: "Fixed radios not working for civilians" },
+			18: { type: "change", desc: "EMS can now join Police channel 1 and 2" },
+			19: { type: "bug", desc: "Fixed Tattoo shop and clothing shop causing your character to get turned back into the default character" },
+		}
+	},
+
 	"Saturday, September 4th 2021": {
 		version: "alpha-1.34.0",
 		current: true,
