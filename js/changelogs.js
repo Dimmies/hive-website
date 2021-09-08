@@ -14,9 +14,34 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, September 8th 2021": {
+		version: "alpha-1.36.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed Drug Sales not alerting police" },
+			1: { type: "bug", desc: "Fixed a few bugs with the progress bar" },
+			2: { type: "change", desc: "Hospital Check In now uses eye interact instead of 3D text" },
+			3: { type: "bug", desc: "Fixed Dropped Items vanishing" },
+			4: { type: "bug", desc: "Fixed drops not deleting the markers when the drop inventory is emptied" },
+			5: { type: "change", desc: "Drop IDs now generate larger numbers so theres a lower chance of 2 different drops having the same ID" },
+			6: { type: "change", desc: "Remade Texting for the 3rd time - This wipes current text messages unfortunately but this should be the last time texts get wiped like this" },
+			7: { type: "bug", desc: "Fixed texts not sorting from newest to oldest" },
+			8: { type: "bug", desc: "Fixed texts not showing profile pictures" },
+			9: { type: "bug", desc: "Fixed missing ped at Paleta Hardware Store (also moved him)" },
+			10: { type: "change", desc: "When hotwiring vehicles, the vehicle now gets registered as a persistent vehicle" },
+			11: { type: "change", desc: "Increased the price of the Toros (34500 > 52000)" },
+			12: { type: "change", desc: "Decreased length of alcohol effects (10 > 5)" },
+			13: { type: "change", desc: "Decreased amount of waters it takes to rid alcohol effects by 1" },
+			14: { type: "change", desc: "Increased Unarmed damage" },
+			15: { type: "change", desc: "Robbing shoes now require the other player to have their hands up or be dead" },
+			16: { type: "change", desc: "Increased the working hours for Percs employee (12-21 > 10-23)" },
+			17: { type: "add", desc: "Added ability to share your number with a nearby player by clicking a button in your phone settings" },
+		}
+	},
+
 	"Sunday, September 5th 2021": {
 		version: "alpha-1.35.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Percocets" },
 			1: { type: "change", desc: "Decreased chance NPC decline drug sale (80% > 65%)" },
