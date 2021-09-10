@@ -14,9 +14,33 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, September 10th 2021": {
+		version: "alpha-1.37.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added ability to tweet photos and send texts with photos" },
+			1: { type: "bug", desc: "Spawning in other peoples apartments should be mostly fixed now" },
+			2: { type: "bug", desc: "Fixed being able to spam enter apartments" },
+			3: { type: "bug", desc: "Possibly fixed weed plants being on top of the apartment shell until you harvest a plant" },
+			4: { type: "bug", desc: "Fixed Neon kits in Bennys not being applied" },
+			5: { type: "bug", desc: "Fixed passengers being able to open Bennys menu" },
+			6: { type: "bug", desc: "Fixed not being able to toggle clothing while cuffed" },
+			7: { type: "bug", desc: "Possibly fixed vehicle stored states not being updated when retrieving them from garages" },
+			8: { type: "bug", desc: "Fixed progress bar cancelling not working sometimes" },
+			9: { type: "bug", desc: "Fixed having to wait at gas stations before being able to fuel vehicle" },
+			10: { type: "add", desc: "Added ability for Assistant Chief of EMS to also access boss menu" },
+			11: { type: "add", desc: "Added ability for Undersheriff to also access boss menu" },
+			12: { type: "bug", desc: "Fixed not being able to eat/drink while hunting" },
+			13: { type: "bug", desc: "Fixed Sheriff Vigero not spawning with Sheriff Livery" },
+			14: { type: "bug", desc: "Fixed a few floating vendors" },
+			15: { type: "add", desc: "Added missing 24/7 vendor" },
+			16: { type: "remove", desc: "Removed barriers at Legion Square garage" },
+		}
+	},
+
 	"Wednesday, September 8th 2021": {
 		version: "alpha-1.36.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed Drug Sales not alerting police" },
 			1: { type: "bug", desc: "Fixed a few bugs with the progress bar" },
