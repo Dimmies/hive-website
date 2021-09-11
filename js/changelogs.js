@@ -14,9 +14,32 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Saturday, September 11th 2021": {
+		version: "alpha-1.38.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Disabled Reckless Driving police alerts" },
+			1: { type: "bug", desc: "Fixed not being able to enter apartments" },
+			2: { type: "bug", desc: "Another attempt at fixing spawning in other peoples apartments" },
+			3: { type: "bug", desc: "Fixed sometimes not being able to repair vehicles at Bennys" },
+			4: { type: "change", desc: "Tweaked Bennys repair prices" },
+			5: { type: "bug", desc: "Fixed opening map while in Tattoo shop sometimes causing the pause menu to be stuck on your screen" },
+			6: { type: "bug", desc: "Fixed tattoos staying on your body even if you don't have enough money" },
+			7: { type: "change", desc: "Increased chance bandages will heal bleeding" },
+			8: { type: "bug", desc: "Fixed a smelting exploit" },
+			9: { type: "bug", desc: "Fixed smelting UI saying Mine instead of Smelt" },
+			10: { type: "bug", desc: "Fixed being able to cuff while dead" },
+			11: { type: "add", desc: "Added ATM to PDM" },
+			12: { type: "bug", desc: "Fixed a few vendors floating" },
+			13: { type: "bug", desc: "Fixed scratchers UI hiding without touching anything sometimes if you used them to fast" },
+			14: { type: "bug", desc: "Possibly fixed some liveries not saving on vehicles" },
+			15: { type: "change", desc: "Tweaked Voice Distances" },
+		}
+	},
+
 	"Friday, September 10th 2021": {
 		version: "alpha-1.37.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added ability to tweet photos and send texts with photos" },
 			1: { type: "bug", desc: "Spawning in other peoples apartments should be mostly fixed now" },
