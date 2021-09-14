@@ -14,9 +14,49 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, September 14th 2021": {
+		version: "alpha-1.40.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Deleting a character now properly cleans up the characters data" },
+			1: { type: "bug", desc: "Fixed Meth not spawning props when loading ingredients" },
+			2: { type: "change", desc: "Increased penalty for incorrect meth ingredients" },
+			3: { type: "bug", desc: "Fixed Weed plants spawning in roof of Apartments" },
+			4: { type: "bug", desc: "Fixed blackjack and roulette using default input. (this also fixes inventory hotkeys triggering when pressing a number while in the custom bet input)" },
+			5: { type: "change", desc: "cop2 emote now allows you to move" },
+			6: { type: "bug", desc: "Fixed Bennys repairs sometimes costing a negative amount" },
+			7: { type: "bug", desc: "/mask, /hat and /glasses should now work properly" },
+			8: { type: "add", desc: "Added more female EMS outfits" },
+			9: { type: "bug", desc: "More inventory drop fixes" },
+			10: { type: "add", desc: "uirestart now also restarts the phone" },
+			11: { type: "bug", desc: "Fixed tattoo shop wiping armor" },
+			12: { type: "bug", desc: "Fixed not being able to unlock your vehicle if you get into another vehicle" },
+			13: { type: "bug", desc: "Fixed having to toggle engine on when someone without keys gets into your vehicle" },
+			14: { type: "bug", desc: "Fixed EMS receiving 2 injured person calls" },
+			15: { type: "bug", desc: "Fixed Badge UI not scaling with resolution" },
+			16: { type: "bug", desc: "Possibly fixed PDM vehicles not being placed on the ground properly" },
+			17: { type: "bug", desc: "Fixed animals not spawning while hunting" },
+			18: { type: "bug", desc: "Fixed boars spawning in the city" },
+			19: { type: "bug", desc: "Fixed deleting warrants not updating wanted status" },
+			20: { type: "bug", desc: "Fixed MDT reports list not showing the most recent reports" },
+			21: { type: "bug", desc: "Fixed searching vehicles that don't have an actual owner erroring out" },
+			22: { type: "bug", desc: "Fixed MDT profile notes not clearing when searching another name" },
+			23: { type: "bug", desc: "Fixed MDT reports not clearing when report is submitted" },
+			24: { type: "change", desc: "Simplified towing for now" },
+			25: { type: "change", desc: "Lowered cost of cleaning kits ($50 > $15)" },
+			26: { type: "bug", desc: "Fixed Mining not closing context menu (smelting dupe)" },
+			27: { type: "bug", desc: "Fixed being able to get multiple transport jobs" },
+			28: { type: "bug", desc: "Fixed winning large amounts of money at the casino erroring out" },
+			29: { type: "change", desc: "Changed Mechanic Garage dialogue to say 'I need a vehicle' instead of 'I need a Tow Truck'" },
+			30: { type: "change", desc: "Increased max time spent underwater to 60 seconds" },
+			31: { type: "change", desc: "Radio volume now changes by 0.2 instead of 0.5" },
+			32: { type: "bug", desc: "Fixed Radio UI not scaling with resolutions" },
+		}
+	},
+
 	"Sunday, September 12th 2021": {
 		version: "alpha-1.39.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added stashes to dumpsters (Note: These go based off of location, try not to move the dumpsters around, if you do, leave the area and come back and it should be fixed.)" },
 			1: { type: "add", desc: "Added blips to show location of EMS, Police and Mechanic calls from the Emergency phone app" },
