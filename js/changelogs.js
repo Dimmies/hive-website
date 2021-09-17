@@ -14,9 +14,35 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, September 17th 2021": {
+		version: "alpha-1.41.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed Tec-9 using pistol ammo instead of SMG ammo" },
+			1: { type: "bug", desc: "Fixed House Robbery calls not being sent to Police" },
+			2: { type: "bug", desc: "Fixed being able to make negative quality meth" },
+			3: { type: "bug", desc: "Fixed being able to sell drugs to dead NPCs" },
+			4: { type: "bug", desc: "Fixed being able to rob dead NPCs" },
+			5: { type: "bug", desc: "Fixed Horse Race casino game continuing to play sounds if back out of the game while a race is active" },
+			6: { type: "bug", desc: "Fixed dying if you ragdoll while playing slots" },
+			7: { type: "bug", desc: "Fixed lipstick not saving correctly" },
+			8: { type: "add", desc: "Added /cinebars command to toggle cinematic bars" },
+			9: { type: "change", desc: "Disabled unfinished contact bank transfer function" },
+			10: { type: "bug", desc: "Fixed 'No one around!' error showing even when you successfully give keys" },
+			11: { type: "add", desc: "Added weapon recoil. Weapon recoil depends on if you're in a vehicle or on foot as well as if you're in the driver seat or passenger seat" },
+			12: { type: "bug", desc: "Fixed mechanic impounding not showing interact slide-in correctly" },
+			13: { type: "bug", desc: "Fixed mechanic impounding not working if on foot" },
+			14: { type: "add", desc: "Added a check for special vehicles that shouldn't be able to be towed" },
+			15: { type: "bug", desc: "Fixed transport load not despawning and blips not getting cleaned up when you leave a job early" },
+			16: { type: "change", desc: "Disabled vehicle controls while in the air (this exludes bicycles, helis, boats, planes, and motorcycle)" },
+			17: { type: "remove", desc: "Removed all vehicles on the Air craft carrier (Fort Zancudo is next)" },
+			18: { type: "remove", desc: "Removed Dump spawns at the quarry" },
+		}
+	},
+
 	"Tuesday, September 14th 2021": {
 		version: "alpha-1.40.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Deleting a character now properly cleans up the characters data" },
 			1: { type: "bug", desc: "Fixed Meth not spawning props when loading ingredients" },
