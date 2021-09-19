@@ -14,9 +14,42 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, September 19th 2021": {
+		version: "alpha-1.42.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added a vehicle tracking app to the phone" },
+			1: { type: "bug", desc: "Fixed Percocets and armor getting removed even if you cancel the progress" },
+			2: { type: "change", desc: "Tweaked Weed Prices" },
+			3: { type: "change", desc: "Lowered chance of Male Weed plants" },
+			4: { type: "change", desc: "Lowered amount of seeds you get back from weed plants" },
+			5: { type: "change", desc: "You now buy lower quality seeds, the rest of the seeds have to be obtained through other means ;)" },
+			6: { type: "bug", desc: "Fixed police alerts history UI not hiding if you have set a custom keybind" },
+			7: { type: "add", desc: "Added a spin to win wheel to the casino (you can spin 5 times per restart)" },
+			8: { type: "optimize", desc: "Optimized Inventory" },
+			9: { type: "add", desc: "Added a 'Sell All' button to Pawn Shop and Fish Buyer" },
+			10: { type: "change", desc: "Tweaked Pistol, Heavy Pistol, Micro SMG, and Tec-9 recoil" },
+			11: { type: "bug", desc: "Fixed EMS getting 2 calls when someone dies" },
+			12: { type: "change", desc: "If you get knocked out 3 times within a short amount of time, you now die." },
+			13: { type: "change", desc: "Increased respawn timer (180s > 350s)" },
+			14: { type: "add", desc: "Added some extra checks to make sure purchased vehicles spawn with default upgrades" },
+			15: { type: "change", desc: "Increased Windsor and Windsor2 price" },
+			16: { type: "change", desc: "You now walk/run slower while cuffed" },
+			17: { type: "bug", desc: "Fixed not being able to open phone/inventory if you log out while cuffed." },
+			18: { type: "bug", desc: "Fixed not being able to open player list while dead" },
+			19: { type: "add", desc: "Added ability to set a custom keybind for speed limiter" },
+			20: { type: "change", desc: "Lowered chance of winning scratchoff tickets" },
+			21: { type: "change", desc: "Locked Lab and Surgery rooms in hospital" },
+			22: { type: "bug", desc: "Fixed radio not actually turning off" },
+			23: { type: "bug", desc: "Fixed radio volume not silencing radio clicks when volume is 0" },
+			24: { type: "bug", desc: "Fixed radio on/off sound being the same" },
+			25: { type: "bug", desc: "Fixed radio channel not being visually shown when you toggle the radio off then back on" },
+		}
+	},
+
 	"Friday, September 17th 2021": {
 		version: "alpha-1.41.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed Tec-9 using pistol ammo instead of SMG ammo" },
 			1: { type: "bug", desc: "Fixed House Robbery calls not being sent to Police" },
