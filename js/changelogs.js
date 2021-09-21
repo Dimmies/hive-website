@@ -14,9 +14,44 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, September 21st 2021": {
+		version: "alpha-1.43.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added Laser Tag" },
+			1: { type: "change", desc: "Changed the way vehicles are pooled" },
+			2: { type: "change", desc: "Changed the way peds are pooled" },
+			3: { type: "bug", desc: "Fixed vehicle interior and dashboards not saving" },
+			4: { type: "bug", desc: "Fixed vehicle extras not saving" },
+			5: { type: "change", desc: "Changed Thermite crafting to crafting benches and increased requirements" },
+			6: { type: "change", desc: "Lowered Police and EMS Paychecks" },
+			7: { type: "change", desc: "Drastically lowered Mechanic paychecks" },
+			8: { type: "bug", desc: "Fixed Car Boosting sometimes not accepting the vehicle" },
+			9: { type: "change", desc: "Car Boosting email now includes the vehicles plate" },
+			10: { type: "bug", desc: "Fixed Percocets not being removed when used" },
+			11: { type: "remove", desc: "Removed weed gathering field" },
+			12: { type: "bug", desc: "Fixed Spin to Win wheel not checking if you have enough money" },
+			13: { type: "bug", desc: "Fixed Roulette tables not working sometimes" },
+			14: { type: "bug", desc: "Fixed props not being removed with you cancel an emote" },
+			15: { type: "bug", desc: "Fixed some vehicles not having livery options in Bennys" },
+			16: { type: "bug", desc: "Fixed Police Female outfits not being available" },
+			17: { type: "change", desc: "Increased crafting requirements for Pistol and SMG Ammo" },
+			18: { type: "bug", desc: "Fixed Trunk Inventories not closing properly if you move too far away from it" },
+			19: { type: "bug", desc: "Fixed being able to be pulled from RC Cars" },
+			20: { type: "bug", desc: "Fixed Blip not showing for EMS and police when NPC alerts an Injured Person" },
+			21: { type: "change", desc: "EMS and Police vehicles now spawn with 100% Fuel" },
+			22: { type: "remove", desc: "Removed 2nd Ambulance from EMS Garage as it was causing client crashes" },
+			23: { type: "change", desc: "Vehicles now sit higher on tow truck beds" },
+			24: { type: "bug", desc: "Fixed /takedna command not working" },
+			25: { type: "bug", desc: "Fixed IDs over head being bunched up while in a vehicle" },
+			26: { type: "bug", desc: "Fixed Armor not being removed when used" },
+			27: { type: "bug", desc: "Fixed being able to carry people while in a vehicle" },
+		}
+	},
+
 	"Sunday, September 19th 2021": {
 		version: "alpha-1.42.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added a vehicle tracking app to the phone" },
 			1: { type: "bug", desc: "Fixed Percocets and armor getting removed even if you cancel the progress" },
