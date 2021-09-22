@@ -14,9 +14,27 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, September 22nd 2021": {
+		version: "alpha-1.44.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "More vehicle persistence fixes" },
+			1: { type: "bug", desc: "Fixed some vehicle purchases failing" },
+			2: { type: "change", desc: "Increased Fleeca Bank and PSB Bank Heist Payout" },
+			3: { type: "bug", desc: "Fixed getting kicked from laser tag game for no reason" },
+			4: { type: "change", desc: "Reduced chance to get a RC Car from Spin to Win wheel" },
+			5: { type: "bug", desc: "Possibly fixed seeing other people in your apartment (please)" },
+			6: { type: "add", desc: "Add vehicle degradation - the more you drive your vehicles, the more wear and tear you put on your vehicle. Mechanics are required to repair these parts. Low health parts will cause different effects on your vehicle" },
+			7: { type: "add", desc: "Added ability for mechanics to craft Repair Kits and Advanced Repair Kits" },
+			8: { type: "add", desc: "Added an OBD Scanner - Mechanics can use these to read the information of your vehicle (Upgrades, Colors, and Part Degradation)" },
+			9: { type: "bug", desc: "Fixed being able to shoot out of RC Cars" },
+			10: { type: "bug", desc: "Fixed Laser Tag game clothing" },
+		}
+	},
+
 	"Tuesday, September 21st 2021": {
 		version: "alpha-1.43.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Laser Tag" },
 			1: { type: "change", desc: "Changed the way vehicles are pooled" },
