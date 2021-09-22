@@ -25,6 +25,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			4: { type: "change", desc: "Reduced amount of tweets loaded from 130 to 60" },
 			5: { type: "bug", desc: "Fixed Dialogue UI not scaling with resolution" },
 			6: { type: "bug", desc: "Fixed female laser tag mask" },
+			7: { type: "bug", desc: "Fixed vehicle degradation not always saving correctly" },
 		}
 	},
 
