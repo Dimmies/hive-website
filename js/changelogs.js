@@ -14,9 +14,23 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, September 22nd 2021 (2)": {
+		version: "alpha-1.45.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed house robberies" },
+			1: { type: "change", desc: "Made the OBD Scanner screen larger" },
+			2: { type: "change", desc: "Moved vehicle degradation list higher up on the OBD" },
+			3: { type: "bug", desc: "Fixed Police Alert client error" },
+			4: { type: "change", desc: "Reduced amount of tweets loaded from 130 to 60" },
+			5: { type: "bug", desc: "Fixed Dialogue UI not scaling with resolution" },
+			6: { type: "bug", desc: "Fixed female laser tag mask" },
+		}
+	},
+
 	"Wednesday, September 22nd 2021": {
 		version: "alpha-1.44.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "More vehicle persistence fixes" },
 			1: { type: "bug", desc: "Fixed some vehicle purchases failing" },
