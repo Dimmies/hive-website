@@ -24,6 +24,11 @@
 	padding-left: 20px;
 }
 
+#chunk-header:hover {
+	cursor: pointer;
+	background-color: rgba(189, 146, 29, 0.493);
+}
+
 #chunk-head-icon {
 	color: white;
     background-color: transparent;
