@@ -14,9 +14,35 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
-	"Friday, September 24nd 2021": {
+	"Sunday, September 26th 2021": {
 		version: "alpha-1.46.0",
 		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added stretchers to Ambulances (go to the back and use eye to grab a stretcher)" },
+			1: { type: "add", desc: "Added resist minigame when getting cuffed" },
+			2: { type: "add", desc: "Added ability to lockpick handcuffs" },
+			3: { type: "add", desc: "Added a /roll <amount> command to roll a dice" },
+			4: { type: "add", desc: "Added ATM to Tire Nutz" },
+			5: { type: "add", desc: "Added Jackhammer animation" },
+			6: { type: "bug", desc: "Fixed Laser Tag not giving you a laser gun back if you pull out a real gun" },
+			7: { type: "bug", desc: "Fixed spin to win wheel not spawning sometimes" },
+			8: { type: "bug", desc: "Fixed getting mystery prizes twice" },
+			9: { type: "bug", desc: "Fixed inviting someone into your apartment not working" },
+			10: { type: "bug", desc: "Fixed Ped Model faces not saving" },
+			11: { type: "change", desc: "Remade meth, this changes the method, adds new features and fixes some bugs" },
+			12: { type: "bug", desc: "Fixed anyone being able to see Tow/Untow option on Tow Trucks" },
+			13: { type: "bug", desc: "Fixed selling vehicle saying 'Fine'" },
+			14: { type: "optimize", desc: "Optimized Weapon ammo saving/loading" },
+			15: { type: "change", desc: "Increased Jugular and Coquette D10 prices" },
+			16: { type: "bug", desc: "Fixed uirestart command not working when in the dialogue UI" },
+			17: { type: "change", desc: "RC Cars now get removed from your inventory when you break them" },
+			18: { type: "change", desc: "Slightly decreased pickpocket payouts" },
+		}
+	},
+
+	"Friday, September 24th 2021": {
+		version: "alpha-1.46.0",
+		current: false,
 		"logs": {
 			0: { type: "change", "desc": "When stealing shoes you now get a shoes item, when the item is used, you'll put on the shoes that was stolen" },
 			1: { type: "change", "desc": "Increased 24/7 Safe Cracking amount from 4 to 5" },
