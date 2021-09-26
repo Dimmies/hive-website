@@ -21,7 +21,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			0: { type: "add", desc: "Added stretchers to Ambulances (go to the back and use eye to grab a stretcher)" },
 			1: { type: "add", desc: "Added resist minigame when getting cuffed" },
 			2: { type: "add", desc: "Added ability to lockpick handcuffs" },
-			3: { type: "add", desc: "Added a /roll <amount> command to roll a dice" },
+			3: { type: "add", desc: "Added a /roll [amount] command to roll a dice" },
 			4: { type: "add", desc: "Added ATM to Tire Nutz" },
 			5: { type: "add", desc: "Added Jackhammer animation" },
 			6: { type: "bug", desc: "Fixed Laser Tag not giving you a laser gun back if you pull out a real gun" },
