@@ -15,7 +15,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 	// bug / change / add / remove / misc / optimize
 
 	"Sunday, September 26th 2021": {
-		version: "alpha-1.46.0",
+		version: "alpha-1.47.0",
 		current: true,
 		"logs": {
 			0: { type: "add", desc: "Added stretchers to Ambulances (go to the back and use eye to grab a stretcher)" },
