@@ -17,7 +17,7 @@ button {
     overflow: hidden;
 
     position: absolute;
-    top: -350px;
+    /* top: -350px; */
 
     opacity: 0.3;
 }
@@ -111,6 +111,7 @@ button {
     border: none;
 
     font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
     color: white;
 
     margin: 0px 10px;
@@ -126,7 +127,7 @@ button {
 
 #ss-grid {
     display: flex;
-    justify-content: center; align-items: center;
+    justify-content: center; align-items: center; flex-wrap: wrap;
 
     padding: 120px 0px 180px 10px;
 }
@@ -159,6 +160,8 @@ button {
     font-family: 'Nunito', sans-serif;
 
     margin: 0px 50px;
+
+    margin-bottom: 10px;
 }
 
 #card-btn {

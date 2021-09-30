@@ -37,6 +37,8 @@
     padding: 0;
     flex-direction: column;
     padding-top: 20px;
+
+    flex-wrap: wrap;
 }
 
 #team-list-name {

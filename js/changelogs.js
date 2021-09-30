@@ -14,9 +14,25 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday, September 30th 2021": {
+		version: "alpha-1.49.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added ability for Police and EMS to go on and off duty (You can see your duty status with /duty)" },
+			1: { type: "bug", desc: "Fixed Inked Duffle Bags timers not working" },
+			2: { type: "add", desc: "Added ability to toggle vest with /vest" },
+			3: { type: "change", desc: "When logging out of your apartment, your inventory should now save before logging you how" },
+			4: { type: "bug", desc: "Fixed a vehicle health client error" },
+			5: { type: "bug", desc: "Fixed vehicle sales not checking if you have enough money before taking it" },
+			6: { type: "bug", desc: "Fixed a Laser Tag client error" },
+			7: { type: "bug", desc: "Fixed Laser Tag wiping your ammo" },
+			8: { type: "change", desc: "Updated MDT Penal Code fines/times" },
+		}
+	},
+
 	"Tuesday, September 28th 2021": {
 		version: "alpha-1.48.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed being able to skip some meth steps and having no consequences" },
 			1: { type: "bug", desc: "Fixed not being able to make meth after making 1" },
