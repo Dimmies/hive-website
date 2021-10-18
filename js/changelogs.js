@@ -14,9 +14,34 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, October 18th 2021": {
+		version: "alpha-1.51.0",
+		current: true,
+		"logs": {
+			1: { type: "bug", desc: "Possibly fixed Headlight Colors not saving" },
+			2: { type: "bug", desc: "Fixed Bank Robberies not working" },
+			3: { type: "bug", desc: "Fixed Fleeca Robberies not working" },
+			4: { type: "bug", desc: "Fixed House Robberies not working" },
+			5: { type: "bug", desc: "Fixed Hunger and thirst not updating when you first join the server" },
+			6: { type: "bug", desc: "Fixed weed not working in houses" },
+			7: { type: "add", desc: "Added Repair Kits to Tuner Crafting" },
+			8: { type: "bug", desc: "Fixed House Garages not working" },
+			9: { type: "bug", desc: "Fixed nitrous hud not being hidden" },
+			10: { type: "bug", desc: "Fixed ammo being reusable" },
+			11: { type: "bug", desc: "Fixed Tire Nutz Boss menu not working" },
+			12: { type: "change", desc: "Increased chance of Scrap Metal" },
+			13: { type: "bug", desc: "Fixed EMS Helis not having Heli cams and rappel" },
+			14: { type: "bug", desc: "Fixed searching plates not limiting results" },
+			15: { type: "bug", desc: "Fixed Taxi Job being exploitable" },
+			16: { type: "bug", desc: "Fixed most LS Customs not having interiors" },
+			17: { type: "change", desc: "Updated Pillbox Interior" },
+			18: { type: "bug", desc: "Fixed crouching resetting walk style" },
+		}
+	},
+
 	"Saturday, October 16th 2021": {
 		version: "alpha-1.50.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Racing App (along with 6 tracks, thanks Chromello)" },
 			1: { type: "add", desc: "Added Tuner Shop" },
