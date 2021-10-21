@@ -14,9 +14,34 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, October 21st 2021": {
+		version: "alpha-1.52.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added DJ booths to Tuner Shop, Triad Record, Rockford Record and Tequi-la-la where people can play music (you can use /streamermode to turn off this music)" },
+			1: { type: "bug", desc: "Fixed dash color not saving" },
+			2: { type: "bug", desc: "Fixed nitrous not saving/loading correctly" },
+			3: { type: "change", desc: "Decreased length of Nitrous" },
+			4: { type: "bug", desc: "Fixed nitrous effect not working" },
+			5: { type: "bug", desc: "Fixed being able to apply nitrous to vehicles that shouldn't support nitrous" },
+			6: { type: "add", desc: "Added a bar to the Casino" },
+			7: { type: "add", desc: "Added a pager to Pillbox to page available EMS" },
+			8: { type: "bug", desc: "Fixed Delivery boxes not deleting when delivering package" },
+			9: { type: "change", desc: "MDT Penal Code is now color coordinated" },
+			10: { type: "bug", desc: "Fixed Smelter Exploit" },
+			11: { type: "bug", desc: "Fixed taxi door not being shut when dropping off customer" },
+			12: { type: "change", desc: "Moved Transport job to an easier location" },
+			13: { type: "change", desc: "Decreased default audio of radar" },
+			14: { type: "add", desc: "Added blip to Tequi-la-la" },
+			15: { type: "change", desc: "Completely rewrote /me - This should fix issues with not being able to send /me while another /me is in the area" },
+			16: { type: "change", desc: "Player list keybind can now be rebound to another key" },
+			17: { type: "remove", desc: "Removed unused arcade code" },
+		}
+	},
+
 	"Monday, October 18th 2021": {
 		version: "alpha-1.51.0",
-		current: true,
+		current: false,
 		"logs": {
 			1: { type: "bug", desc: "Possibly fixed Headlight Colors not saving" },
 			2: { type: "bug", desc: "Fixed Bank Robberies not working" },
