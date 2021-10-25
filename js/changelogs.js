@@ -14,9 +14,22 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, October 24th 2021 (2)": {
+		version: "alpha-1.54.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Major tweaks/fixes to vehicle persistence to HOPEFULLY (please) fix a wide range of issues. (Not being able to store vehicles, repair vehicle, tow vehicle, lock/unlock vehicle correctly and vehicles going missing, please work :) )" },
+			1: { type: "bug", desc: "Fixed Hayes auto locker not working" },
+			2: { type: "bug", desc: "Fixed tattoo shop resetting walk style" },
+			3: { type: "bug", desc: "Fixed getting in trunks not working (i hope)" },
+			4: { type: "bug", desc: "Fixed vehicle degradation sometimes not being saved/loaded correctly and breaking stuff (like the OBD scanner)" },
+			5: { type: "bug", desc: "Fixed /roll" },
+		}
+	},
+
 	"Sunday, October 24th 2021": {
 		version: "alpha-1.53.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added a new hacking minigame for PSB heist" },
 			1: { type: "remove", desc: "Removed Voltlab hacking minigame as it was causing the weird text on the screen" },
