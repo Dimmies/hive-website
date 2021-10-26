@@ -14,9 +14,29 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, October 26th 2021": {
+		version: "alpha-1.55.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added a watch for PD/EMS, when used the street name and heading will always stay on screen" },
+			1: { type: "bug", desc: "Fixed an issue where 'SYSTEMNo item found' error would randomly show in chat" },
+			2: { type: "add", desc: "uirestart now restarts bank ui" },
+			3: { type: "bug", desc: "Fixed fuel being reset when repairing car at Bennys" },
+			4: { type: "bug", desc: "Fixed furniture not taking money" },
+			5: { type: "bug", desc: "Fixed furniture UI often getting stuck, forcing you to relog" },
+			6: { type: "bug", desc: "Fixed most cases where furniture wont sit on the ground properly" },
+			7: { type: "add", desc: "Added a /houses command to toggle blips for all available houses" },
+			8: { type: "bug", desc: "Fixed error where your owned furniture would be loaded instead of the list of all furniture" },
+			9: { type: "bug", desc: "Attempt number 1823791 at fixing getting in trunks :(" },
+			10: { type: "bug", desc: "Possibly fixed doors not unlocking sometimes?" },
+			11: { type: "bug", desc: "Fixed drowning too fast" },
+			12: { type: "add", desc: "Added UI to scratchers to clarify that sad faces = instant lose" },
+		}
+	},
+
 	"Sunday, October 24th 2021 (2)": {
 		version: "alpha-1.54.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Major tweaks/fixes to vehicle persistence to HOPEFULLY (please) fix a wide range of issues. (Not being able to store vehicles, repair vehicle, tow vehicle, lock/unlock vehicle correctly and vehicles going missing, please work :) )" },
 			1: { type: "bug", desc: "Fixed Hayes auto locker not working" },
