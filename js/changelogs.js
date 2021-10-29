@@ -20,7 +20,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		"logs": {
 			1: { type: "change", desc: "Changed prices/names of house furniture (Thanks OptimusKel!)" },
 			2: { type: "add", desc: "Added ability to force yourself to stop being carried by pressing G (only while not cuffed)" },
-			3: { type: "chance", desc: "Decreased dumpster stash space" },
+			3: { type: "change", desc: "Decreased dumpster stash space" },
 			4: { type: "remove", desc: "Removed trunk space from wheelchairs and RC cars" },
 			5: { type: "bug", desc: "Fixed house phone app not showing list of people who have keys" },
 			6: { type: "bug", desc: "Fixed some messages app UI issues" },
