@@ -14,9 +14,24 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, October 29th 2021": {
+		version: "alpha-1.57.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added Fake Plates" },
+			1: { type: "bug", desc: "Fixed an error with cuffing and carrying" },
+			2: { type: "bug", desc: "Fixed stashes breaking and not being reopenable (hopefully)" },
+			3: { type: "change", desc: "Decreased price of Aluminum" },
+			4: { type: "change", desc: "Moved camera when in hospital bed (should give you a better view now)" },
+			5: { type: "add", desc: "Added Rat Loader to PDM" },
+			6: { type: "change", desc: "Changed tuner install animations" },
+			7: { type: "bug", desc: "Fixed a vehicle persistence error" },
+		}
+	},
+
 	"Thursday, October 28th 2021": {
 		version: "alpha-1.56.0",
-		current: true,
+		current: false,
 		"logs": {
 			1: { type: "change", desc: "Changed prices/names of house furniture (Thanks OptimusKel!)" },
 			2: { type: "add", desc: "Added ability to force yourself to stop being carried by pressing G (only while not cuffed)" },
