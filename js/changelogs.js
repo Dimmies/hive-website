@@ -14,9 +14,31 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday, October 28th 2021": {
+		version: "alpha-1.56.0",
+		current: true,
+		"logs": {
+			1: { type: "change", desc: "Changed prices/names of house furniture (Thanks OptimusKel!)" },
+			2: { type: "add", desc: "Added ability to force yourself to stop being carried by pressing G (only while not cuffed)" },
+			3: { type: "chance", desc: "Decreased dumpster stash space" },
+			4: { type: "remove", desc: "Removed trunk space from wheelchairs and RC cars" },
+			5: { type: "bug", desc: "Fixed house phone app not showing list of people who have keys" },
+			6: { type: "bug", desc: "Fixed some messages app UI issues" },
+			7: { type: "bug", desc: "Fixed Twitter app adding characters when things like \", ', < or >" },
+			8: { type: "bug", desc: "Fixed Retweets not showing image" },
+			9: { type: "bug", desc: "Fixed being able to retweet your own tweets" },
+			10: { type: "add", desc: "Added ability for EMS to set speedzones" },
+			11: { type: "add", desc: "Added some more vehicle locking checks to try to fix issues with doors not locking/unlocking" },
+			12: { type: "bug", desc: "Fixed being able to toggle speed limiter while in passenger seats" },
+			13: { type: "bug", desc: "Fixed a bug where your ped would flee instead of the NPC when pickpocketing" },
+			14: { type: "bug", desc: "More fixes to headlight colors not saving" },
+			15: { type: "bug", desc: "Fixed vehicle tracking not working at all" },
+		}
+	},
+
 	"Tuesday, October 26th 2021": {
 		version: "alpha-1.55.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added a watch for PD/EMS, when used the street name and heading will always stay on screen" },
 			1: { type: "bug", desc: "Fixed an issue where 'SYSTEMNo item found' error would randomly show in chat" },
