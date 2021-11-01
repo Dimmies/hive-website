@@ -14,9 +14,24 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, November 1st 2021": {
+		version: "alpha-1.58.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added Video Calling (This is an experimental feature. We're implementing it into the live server to test how it scales with player count)" },
+			1: { type: "bug", desc: "Fixed most cases where weed plants will just stop growing. (There is still a small chance this will happen, but shouldn't be as often)" },
+			2: { type: "add", desc: "Added button on phone to mute notifications (Currently it only mutes Twitter notifications)" },
+			3: { type: "bug", desc: "Fixed retweeting showing style code" },
+			4: { type: "add", desc: "Added Captain rank to LSSD boss menu" },
+			5: { type: "add", desc: "Added heading indicator to Police/EMS blips" },
+			6: { type: "change", desc: "Made some tweaks to spike strips" },
+			7: { type: "add", desc: "Getting in a car now plays a faint alarm to remind you to put on your seatbelt" },
+		}
+	},
+
 	"Friday, October 29th 2021": {
 		version: "alpha-1.57.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Fake Plates" },
 			1: { type: "bug", desc: "Fixed an error with cuffing and carrying" },
