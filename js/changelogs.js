@@ -14,9 +14,29 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, November 3rd 2021": {
+		version: "alpha-1.59.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Slight changes to how vehicle modifications are saved" },
+			1: { type: "bug", desc: "Fix paychecks not being updated when changed" },
+			2: { type: "add", desc: "Added Harnesses (purchasable from Tuner shop)" },
+			3: { type: "change", desc: "Engine Level 4, Transmission Level 4, Brakes Level 4 and Suspension now have to be purchased and installed at Tuner Shop" },
+			4: { type: "bug", desc: "Fixed DOJ rank misspelling" },
+			5: { type: "bug", desc: "Fixed Car Boosting task persisting after changing characters" },
+			6: { type: "bug", desc: "Fixed Eye Color and Moles not saving/loading correctly" },
+			7: { type: "add", desc: "Added a /propfix command to fix issues where props get stuck in your hand" },
+			8: { type: "bug", desc: "Fixed house actions (exit, stash, outfits & logout) not working if you choose to spawn in your house" },
+			9: { type: "bug", desc: "Fixed text messaging not scrolling to the bottom" },
+			10: { type: "bug", desc: "Fixed Speed Zones persisting if the person who placed it leaves" },
+			11: { type: "change", desc: "Small rewrite of some seatbelt code (this could make seatbelts better or worse, let me know!)" },
+			12: { type: "bug", desc: "More vehicle persistence fixes" },
+		}
+	},
+
 	"Monday, November 1st 2021": {
 		version: "alpha-1.58.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Video Calling (This is an experimental feature. We're implementing it into the live server to test how it scales with player count)" },
 			1: { type: "bug", desc: "Fixed most cases where weed plants will just stop growing. (There is still a small chance this will happen, but shouldn't be as often)" },
