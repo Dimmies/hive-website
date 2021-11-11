@@ -14,9 +14,26 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday November 11th 2021": {
+		version: "alpha-1.61.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed being able to purchase Percocets while not having enough money" },
+			1: { type: "bug", desc: "Another attempt at fixing vehicles sometimes not being deleted." },
+			2: { type: "bug", desc: "Possibly fixed NPCs spawning in houses/apartments" },
+			3: { type: "bug", desc: "Fixed a inventory duplication exploit" },
+			4: { type: "bug", desc: "Fixed bank transfers showing 'undefined' in transaction history" },
+			5: { type: "bug", desc: "Fixed weapon licenses not sticking" },
+			6: { type: "bug", desc: "Fixed random ammunation blip" },
+			7: { type: "bug", desc: "Fixed Horn Kits not playing for everyone" },
+			8: { type: "change", desc: "Decreased NPC ped/vehicle density" },
+			9: { type: "bug", desc: "Yet another attempt at fixing vehicle locks" },
+		}
+	},
+
 	"Wednesday, November 10th 2021": {
 		version: "alpha-1.60.0",
-		current: true,
+		current: false,
 		"logs": {
 			1: { type: "bug", desc: "Fix liveries not saving on vehicles" },
 			2: { type: "bug", desc: "Possibly fix vehicles not being deleted sometimes (hopefully?)" },
