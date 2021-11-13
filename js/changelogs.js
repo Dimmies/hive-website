@@ -14,9 +14,28 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
-	"Thursday November 11th 2021": {
-		version: "alpha-1.61.0",
+	"Saturday, November 13th 2021": {
+		version: "alpha-1.62.0",
 		current: true,
+		"logs": {
+			0: {type: "bug", desc: "More livery saving fixes" },
+			1: {type: "add", desc: "Added the ability for LEO to lock Vangelico" },
+			2: {type: "bug", desc: "Fixed being able to rob Vangelico displays with no cops online" },
+			3: {type: "add", desc: "D A B" },
+			4: {type: "bug", desc: "Fixed Stock liveries not saving correctly" },
+			5: {type: "bug", desc: "Another attempt at fixing vehicles not deleting when trying to store them" },
+			6: {type: "add", desc: "Added ability to carry bikes" },
+			7: {type: "bug", desc: "A n o t h e r attempt at fixing vehicle locks.. please work.. please" },
+			8: {type: "add", desc: "Added new PDM building" },
+			9: {type: "bug", desc: "Fixed PDM vehicles sometimes being in the floor" },
+			10: {type: "bug", desc: "Updated a bunch of interiors (these include a bunch of fixes, optimizations, changes etc)" },
+			11: {type: "bug", desc: "Even more vehicle persistence fixes" },
+		},
+	},
+
+	"Thursday, November 11th 2021": {
+		version: "alpha-1.61.0",
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed being able to purchase Percocets while not having enough money" },
 			1: { type: "bug", desc: "Another attempt at fixing vehicles sometimes not being deleted." },
