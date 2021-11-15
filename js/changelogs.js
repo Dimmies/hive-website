@@ -14,9 +14,21 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, November 14th 2021": {
+		version: "alpha-1.63.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added DJ booths to Yellow Jack, Cat Cafe, and Pizza This" },
+			1: { type: "add", desc: "Added garage to Spanish Ave parking lot" },
+			2: { type: "add", desc: "Added ability to pet cats and dogs.. yeah, I spent time on this.. why? idk.." },
+			3: { type: "bug", desc: "Fixed PDM vehicle spawn location" },
+			4: { type: "bug", desc: "Fixed 6-Wheeled vehicles tires popping when they spawn" },
+		},
+	},
+
 	"Saturday, November 13th 2021": {
 		version: "alpha-1.62.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: {type: "bug", desc: "More livery saving fixes" },
 			1: {type: "add", desc: "Added the ability for LEO to lock Vangelico" },
