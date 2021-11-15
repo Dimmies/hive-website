@@ -20,7 +20,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		"logs": {
 			0: { type: "add", desc: "Added DJ booths to Yellow Jack, Cat Cafe, and Pizza This" },
 			1: { type: "add", desc: "Added garage to Spanish Ave parking lot" },
-			2: { type: "add", desc: "Added ability to pet cats and dogs.. yeah, I spent time on this.. why? idk.." },
+			2: { type: "add", desc: "Added ability to pet cats and dogs.. yup.. i spent time on this.." },
 			3: { type: "bug", desc: "Fixed PDM vehicle spawn location" },
 			4: { type: "bug", desc: "Fixed 6-Wheeled vehicles tires popping when they spawn" },
 		},
