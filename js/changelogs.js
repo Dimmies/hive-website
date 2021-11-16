@@ -14,9 +14,24 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, November 16th 2021": {
+		version: "alpha-1.64.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Reduced weed sale prices" },
+			1: { type: "change", desc: "Reduced weed yield when harvesting" },
+			2: { type: "change", desc: "Rewrote vehicle spawn logic (this is a pretty large update. Please see Discord for more information)" },
+			3: { type: "add", desc: "Added ability to ride pegs on BMX cycles" },
+			4: { type: "add", desc: "/uirestart should now fix the 'Incoming Call' UI" },
+			5: { type: "bug", desc: "Fixed not being able to carry bicycles sometimes" },
+			6: { type: "add", desc: "Added jail items: When jailed, all of your items automatically get saved. When you are released from jail you automatically get those items back. This should rid having to contact your arresting officer to get your items back" },
+			7: { type: "change", desc: "Tweak drug sale accept chance" },
+		},
+	},
+
 	"Sunday, November 14th 2021": {
 		version: "alpha-1.63.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added DJ booths to Yellow Jack, Cat Cafe, and Pizza This" },
 			1: { type: "add", desc: "Added garage to Spanish Ave parking lot" },
