@@ -14,9 +14,31 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, November 17th 2021": {
+		version: "alpha-1.65.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Increased unemployed paycheck to $25 (from $10)" },
+			1: { type: "change", desc: "Increased weed sell prices" },
+			2: { type: "add", desc: "Added 2 more character slots" },
+			3: { type: "change", desc: "Changed Alpha notification on character selection UI to be bright yellow" },
+			4: { type: "bug", desc: "Fixed some text on character selection UI not being centered" },
+			5: { type: "add", desc: "Added /e cokecut animation" },
+			6: { type: "bug", desc: "Fixed vehicles being damaged when pulling them from the garage if they have a damaged engine" },
+			7: { type: "add", desc: "Added weed baggies to Smoke on the Water (200 quantity)" },
+			8: { type: "bug", desc: "More fixes with carrying bikes" },
+			9: { type: "add", desc: "Added ability to press G to stop riding pegs" },
+			10: { type: "bug", desc: "Fixed sometimes being ejected from your car when putting seatbelt on" },
+			11: { type: "change", desc: "Increased garbage payout" },
+			12: { type: "bug", desc: "Fixed not being able to jail someone" },
+			13: { type: "add", desc: "Added ability to tuners to remove neon kits from vehicles" },
+			14: { type: "bug", desc: "Fixed invalid discord link" },
+		},
+	},
+
 	"Tuesday, November 16th 2021": {
 		version: "alpha-1.64.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "change", desc: "Reduced weed sale prices" },
 			1: { type: "change", desc: "Reduced weed yield when harvesting" },
