@@ -14,9 +14,28 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, November 19th 2021": {
+		version: "alpha-1.66.0",
+		current: true,
+		"logs": {
+			0: { type: "remove", desc: "Disabled deleting characters for now. This seemed to be causing issue with characters being randomly deleted." },
+			1: { type: "bug", desc: "Fixed character list only showing 1 slot sometimes" },
+			2: { type: "bug", desc: "Fixed weed plant growth breaking" },
+			3: { type: "bug", desc: "Fixed fake plates (mostly)" },
+			4: { type: "bug", desc: "Fixed crafted items not holding metadata" },
+			5: { type: "bug", desc: "Fixed wording of heavy bleeding" },
+			6: { type: "bug", desc: "Possibly fixed losing entire inventory sometimes when getting released from jail" },
+			7: { type: "bug", desc: "Fixed items being placed into random slots when getting released from jail" },
+			8: { type: "bug", desc: "Fixed some horns in Hayes horn kit being incorrect" },
+			9: { type: "bug", desc: "Fixed prison commissary not working" },
+			10: { type: "change", desc: "Completely remade seatbelts (these still need some tweaking so please let us know how it is)" },
+			11: { type: "bug", desc: "Fixed being able to give cash to people who aren't nearby" },
+		},
+	},
+
 	"Wednesday, November 17th 2021": {
 		version: "alpha-1.65.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "change", desc: "Increased unemployed paycheck to $25 (from $10)" },
 			1: { type: "change", desc: "Increased weed sell prices" },
