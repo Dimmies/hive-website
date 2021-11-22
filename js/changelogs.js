@@ -14,9 +14,31 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, November 22nd 2021": {
+		version: "alpha-1.67.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Completely remade house furniture" },
+			1: { type: "add", desc: "Added over 400 new pieces of furniture/decorations" },
+			2: { type: "change", desc: "House blips now only show unowned houses" },
+			3: { type: "bug", desc: "Fixed not being able to leave house if you spawn in one" },
+			4: { type: "bug", desc: "Fixed not being able to spawn at houses you own keys to" },
+			5: { type: "change", desc: "Increased Register and Safe task time" },
+			6: { type: "change", desc: "Increased 24/7 Robbery payout" },
+			7: { type: "change", desc: "Increased PSB Heist payout" },
+			8: { type: "change", desc: "Increased Jewelry Store robbery payout" },
+			9: { type: "change", desc: "Increased Fishing payout" },
+			10: { type: "change", desc: "Increased Hunting Payout" },
+			11: { type: "change", desc: "Update Prison Map" },
+			12: { type: "add", desc: "Added more checks for entity ownership" },
+			13: { type: "add", desc: "Added garages to Casino Parking Log" },
+			14: { type: "change", desc: "Decreased price of bandages from $50 to $25" },
+		},
+	},
+
 	"Friday, November 19th 2021": {
 		version: "alpha-1.66.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "remove", desc: "Disabled deleting characters for now. This seemed to be causing issue with characters being randomly deleted." },
 			1: { type: "bug", desc: "Fixed character list only showing 1 slot sometimes" },
