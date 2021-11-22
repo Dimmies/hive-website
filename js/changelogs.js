@@ -31,7 +31,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			10: { type: "change", desc: "Increased Hunting Payout" },
 			11: { type: "change", desc: "Update Prison Map" },
 			12: { type: "add", desc: "Added more checks for entity ownership" },
-			13: { type: "add", desc: "Added garages to Casino Parking Log" },
+			13: { type: "add", desc: "Added garages to Casino Parking Lot" },
 			14: { type: "change", desc: "Decreased price of bandages from $50 to $25" },
 		},
 	},
