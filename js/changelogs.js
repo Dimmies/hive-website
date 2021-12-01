@@ -78,6 +78,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			57: { type: "add", desc: "Added Scuba Gear to Police Armory" },
 			58: { type: "bug", desc: "Fixed Heli Cam and Repelling not working on SWAT Helicopter" },
 			59: { type: "remove", desc: "Removed ID from Court House and Starter Items" },
+			60: { type: "add", desc: "Added employee list to Boss Menus instead of using server ids" },
 		},
 	},
 
