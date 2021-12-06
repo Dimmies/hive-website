@@ -14,9 +14,47 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Mondau, December 6th 2021": {
+		version: "alpha-1.69.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Completely remade our clothing system and added a ton of new clothing (from @MZRY)" },
+			1: { type: "add", desc: "Added new Third Eye system" },
+			2: { type: "add", desc: "Added ability to disable characters (this allows you to clear a character slot without completely deleting all of it's data)" },
+			3: { type: "add", desc: "Added cop5 emote (from @zeuz)" },
+			4: { type: "change", desc: "Emote keybinds now load correctly when switching characters" },
+			5: { type: "change", desc: "Moved Paleto Garage spawn location" },
+			6: { type: "bug", desc: "Fixed being able to decorate outside of houses" },
+			7: { type: "add", desc: "Added ability to see house address at front door" },
+			8: { type: "change", desc: "Increase house storage to 2000lbs" },
+			9: { type: "bug", desc: "Fixed a bunch of weapons causing stress that shouldn't (including snowballs)" },
+			10: { type: "bug", desc: "Fixed Seatbelt and Limiter UI sometimes becoming inverted" },
+			11: { type: "add", desc: "Added camping chair item that allows you to sit anywhere" },
+			12: { type: "add", desc: "Added Slushies" },
+			13: { type: "add", desc: "Added being able to see your 911r response" },
+			14: { type: "add", desc: "Added ability to sell all items in Junk Shop" },
+			15: { type: "change", desc: "Refueling vehicles now uses Third Eye on the back driver side" },
+			16: { type: "optimize", desc: "Optimized fuel script" },
+			17: { type: "change", desc: "Purchasing Jerry Cans now uses third eye on gas pumps" },
+			18: { type: "change", desc: "Decreased tattoo prices" },
+			19: { type: "bug", desc: "Yet A N O T H E R attempt at fixing vehicle locks " },
+			20: { type: "bug", desc: "Fixed being on duty when relogging" },
+			21: { type: "bug", desc: "Fixed vehicle unflipping not working" },
+			22: { type: "bug", desc: "Fixed blips still showing when going off duty" },
+			23: { type: "change", desc: "SD vehicles now spawn with the players callsign (if they have one set)" },
+			24: { type: "add", desc: "Added Gavel to court room" },
+			25: { type: "add", desc: "Added /cid command to see own Citizen ID" },
+			26: { type: "bug", desc: "Fixed not being able to turn off speed limiter if not moving" },
+			27: { type: "change", desc: "Decreased distance check when sitting in seats (should help with trying to sit in an empty seat and it saying someone is already sitting in it)" },
+			28: { type: "change", desc: "Reverted vehicle spawning, this should hopefully fix some issues with vehicles not spawning with mods occasionally" },
+			29: { type: "bug", desc: "Fixed player list not updating" },
+			30: { type: "bug", desc: "Fixed wording of Mechanic Shop" },
+		},
+	},
+
 	"Wednesday, December 1st 2021": {
 		version: "alpha-1.68.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Snow" },
 			1: { type: "add", desc: "Added Holiday themed Loading Screen" },
