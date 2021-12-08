@@ -14,7 +14,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
-	"Mondau, December 6th 2021": {
+	"Monday, December 6th 2021": {
 		version: "alpha-1.69.0",
 		current: true,
 		"logs": {
