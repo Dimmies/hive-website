@@ -14,9 +14,26 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday, December 16th 2021": {
+		version: "alpha-1.71.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed off duty EMS/PD getting $10 instead of default $25" },
+			1: { type: "bug", desc: "Fixed not being able to withdraw money from separate bank accounts if it exceeds the amount you have in your personal account" },
+			2: { type: "bug", desc: "Fixed /hair setting you to bald if you have colored hair" },
+			3: { type: "add", desc: "Enabled crosshairs. We're testing the water with this to even the playing field. If you really don't want to see crosshairs at all, you can use /xhair to completely disable them. If we find it doens't fit our vision, it'll be removed." },
+			4: { type: "add", desc: "Added Scout LSSD vehicle (@zeuz)" },
+			5: { type: "add", desc: "Added BF400 LSSD Bike (@zeuz)" },
+			6: { type: "add", desc: "Added LSSD Livery for Maverick (@zeuz)" },
+			7: { type: "add", desc: "Added LSSD Livery for Boat (@zeuz)" },
+			8: { type: "add", desc: "Added LSSD Livery for Speedo (@zeuz)" },
+			9: { type: "add", desc: "Added SWAT Liveries (@zeuz)" },
+		},
+	},
+
 	"Wednesday, December 15th 2021": {
 		version: "alpha-1.70.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added new banking system" },
 			1: { type: "bug", desc: "Fixed stealing shoes not setting other player to barefoot" },
