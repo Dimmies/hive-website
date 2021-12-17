@@ -14,9 +14,27 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, December 17th 2021": {
+		version: "alpha-1.71.1",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed crosshair being offcenter" },
+			1: { type: "bug", desc: "Fixed clothing menu not allowing you to go left" },
+			2: { type: "bug", desc: "Another attempt at fixing garage stalling vehicles when retrieving them" },
+			3: { type: "bug", desc: "Fixed bank transaction histroy sometimes not loading" },
+			4: { type: "add", desc: "Add limit to the number of bank accounts a user can have" },
+			5: { type: "bug", desc: "Fixed /shoe not setting to barefoot for females" },
+			6: { type: "bug", desc: "Fixed RC Cars not working" },
+			7: { type: "add", desc: "Added new PD Pistol and Drivers License item image" },
+			8: { type: "bug", desc: "Fixed blurry LSSD Maverick livery (@zeuz)" },
+			9: { type: "change", desc: "Reduced texture resolution of LSSD Scout (@zeuz)" },
+			10: { type: "add", desc: "Added LSSD Buzzard Livery (@zeuz)" },
+		},
+	},
+
 	"Thursday, December 16th 2021": {
 		version: "alpha-1.71.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed off duty EMS/PD getting $10 instead of default $25" },
 			1: { type: "bug", desc: "Fixed not being able to withdraw money from separate bank accounts if it exceeds the amount you have in your personal account" },
