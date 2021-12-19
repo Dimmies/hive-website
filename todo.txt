@@ -1,9 +1,0 @@
-
-- About Us
-- Image from Jaysome, Dazzer, Tupa, FootSoldierz
-- Descriptions of server roles https://i.imgur.com/lj41hFb.png (CIVILIAN LIFE / CRIMINAL LIFE / )
-- Application Descriptions https://i.imgur.com/IICqpiZ.png
-- Add Server Rules Somewhere
-- Add ico
-- View website as non-darkmode to see what it looks like
-- Website should work on mobile too
