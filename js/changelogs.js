@@ -41,7 +41,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	"Friday, December 17th 2021": {
 		version: "alpha-1.71.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed crosshair being offcenter" },
 			1: { type: "bug", desc: "Fixed clothing menu not allowing you to go left" },
