@@ -14,6 +14,31 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, December 21th 2021": {
+		version: "alpha-1.72.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added Cocaine" },
+			1: { type: "add", desc: "Added Davis PD (Mostly functional missing a few things)" },
+			2: { type: "add", desc: "Added Paleto PD (Mostly functional missing a few things)" },
+			3: { type: "add", desc: "Added Davis PD and Paleto PD Spawn points" },
+			4: { type: "add", desc: "Added Medical MDT" },
+			5: { type: "bug", desc: "Fixed crosshair still not being completely centered" },
+			6: { type: "add", desc: "Reenabled Snow (this will last till Monday-ish after xmas)" },
+			7: { type: "bug", desc: "Fixed door lock sounds rarely working" },
+			8: { type: "change", desc: "Tweaked police station blip size" },
+			9: { type: "bug", desc: "Fixed bank transferring not working" },
+			10: { type: "bug", desc: "Fixed dead animation being jumpy" },
+			11: { type: "remove", desc: "Removed Hauler from Transport job" },
+			12: { type: "add", desc: "Added animation and prop when looking at radio" },
+			13: { type: "add", desc: "Added animation when local impounding vehicle" },
+			14: { type: "change", desc: "Increased Percocet Payout" },
+			15: { type: "bug", desc: "Fixed bank account names with special characters breaking SQL query" },
+			16: { type: "remove", desc: "Removed EMS Tank Helicopter (@zeuz)" },
+			17: { type: "add", desc: "Added EMS Maverick Helicopter (@zeuz)" },
+		},
+	},
+
 	"Friday, December 17th 2021": {
 		version: "alpha-1.71.1",
 		current: true,
