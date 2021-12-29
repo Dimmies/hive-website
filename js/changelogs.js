@@ -14,6 +14,25 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, December 29th 2021": {
+		version: "alpha-1.73.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added entire new weed process" },
+			1: { type: "change", desc: "Tweaked weed payout" },
+			2: { type: "add", desc: "Added 3 new strains of weed" },
+			3: { type: "change", desc: "Weed prices now vary per server restart" },
+			4: { type: "change", desc: "Weed prices now depend on # of cops in the server" },
+			5: { type: "add", desc: "Added EMS Badges" },
+			6: { type: "add", desc: "Added new New Years themed loading screen" },
+			7: { type: "bug", desc: "Fixed getting frozen when selling drugs to NPCs" },
+			8: { type: "change", desc: "Changed Joint effects" },
+			9: { type: "add", desc: "Added new billing system (this allows you to actually get paid and to select the account you want to send the money to)" },
+			10: { type: "bug", desc: "Fixed vehicles spawning stalled/broken when retrieving from garage" },
+			11: { type: "add", desc: "Added new evoc course (@daz)" },
+		},
+	},
+
 	"Tuesday, December 21th 2021": {
 		version: "alpha-1.72.0",
 		current: true,
