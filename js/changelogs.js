@@ -14,6 +14,19 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, December 31st 2021": {
+		version: "alpha-1.73.1",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed weed plants not destroying properly" },
+			1: { type: "bug", desc: "Fixed harvesting and destroying weed breaking progress bars" },
+			2: { type: "bug", desc: "Fixed LSSD Buzzard not spawning with correct livery" },
+			3: { type: "bug", desc: "Fixed issue with weapons randomly holstering when shooting" },
+			4: { type: "add", desc: "Added better Twitter picture & retweet handling" },
+			5: { type: "bug", desc: "Fixed blurry BF400 Sheriff livery (@zeuz)" },
+		},
+	},
+
 	"Wednesday, December 29th 2021": {
 		version: "alpha-1.73.0",
 		current: true,
