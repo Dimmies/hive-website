@@ -14,9 +14,21 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, January 4th 2021": {
+		version: "alpha-1.73.2",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Add new Boss Menu UI" },
+			1: { type: "change", desc: "Buffalos can now be retrieved by Deputy rank" },
+			2: { type: "remove", desc: "Removed EMS from SD Panic Button" },
+			3: { type: "add", desc: "Add door locks to Davis PD front door" },
+			4: { type: "add", desc: "Add evidence locker to Davis PD and Paleto Sheriff" },
+		},
+	},
+
 	"Friday, December 31st 2021": {
 		version: "alpha-1.73.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed weed plants not destroying properly" },
 			1: { type: "bug", desc: "Fixed harvesting and destroying weed breaking progress bars" },
@@ -29,7 +41,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	"Wednesday, December 29th 2021": {
 		version: "alpha-1.73.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added entire new weed process" },
 			1: { type: "change", desc: "Tweaked weed payout" },
@@ -48,7 +60,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	"Tuesday, December 21th 2021": {
 		version: "alpha-1.72.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Cocaine" },
 			1: { type: "add", desc: "Added Davis PD (Mostly functional missing a few things)" },
