@@ -14,9 +14,20 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, January 5th 2021": {
+		version: "alpha-1.73.3",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fix stash inventories being openable by multiple people" },
+			1: { type: "bug", desc: "Fix boss menu set rank buttons being appended wrong" },
+			2: { type: "bug", desc: "Fix Casino Chips exploit" },
+			3: { type: "add", desc: "Added dropping items on ground when overweight" },
+		},
+	},
+
 	"Tuesday, January 4th 2021": {
 		version: "alpha-1.73.2",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Add new Boss Menu UI" },
 			1: { type: "change", desc: "Buffalos can now be retrieved by Deputy rank" },
