@@ -14,9 +14,24 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday, January 6th 2021": {
+		version: "alpha-1.74.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Increased Cocaine payout" },
+			1: { type: "change", desc: "Increased Weed yield" },
+			2: { type: "change", desc: "UC vehicles now spawn with tinted windows" },
+			3: { type: "change", desc: "Changed MDT Vehicle List to use a table" },
+			4: { type: "add", desc: "Added ability to store vehicles at garage zones (ex. Casino Garage)" },
+			5: { type: "change", desc: "Moved garage zone actions to Radial Menu" },
+			6: { type: "add", desc: "Added more door locks to prison" },
+			7: { type: "add", desc: "Added carrying items on person depending on what you have in your inventory" },
+		},
+	},
+
 	"Wednesday, January 5th 2021": {
 		version: "alpha-1.73.3",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fix stash inventories being openable by multiple people" },
 			1: { type: "bug", desc: "Fix boss menu set rank buttons being appended wrong" },
