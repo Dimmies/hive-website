@@ -14,9 +14,29 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, January 10th 2021": {
+		version: "alpha-1.75.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed player names with special characters breaking stuff" },
+			1: { type: "remove", desc: "Remove fireworks from loading screen" },
+			2: { type: "bug", desc: "Fixed weed plant entity not deleting" },
+			3: { type: "bug", desc: "Fixed trowel getting stuck in hand when digging weed plant" },
+			4: { type: "bug", desc: "Fixed carried entitees not deleting" },
+			5: { type: "bug", desc: "Fixed carried entities blocking bullets" },
+			6: { type: "bug", desc: "Fixed Paleto SD evidence locker being accessible from the holding cells" },
+			7: { type: "bug", desc: "Fixed a few item images" },
+			8: { type: "add", desc: "Added notification when notifying EMS when downed" },
+			9: { type: "bug", desc: "Fixed not being able to fire people from Boss Menu" },
+			10: { type: "bug", desc: "Fixed invalid callsign notification erroring out" },
+			11: { type: "bug", desc: "Added female tops, pants, accessories and shoes (@mzry)" },
+			12: { type: "bug", desc: "Addded male tops and accessories (@mzry)" },
+		},
+	},
+
 	"Thursday, January 6th 2021": {
 		version: "alpha-1.74.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "change", desc: "Increased Cocaine payout" },
 			1: { type: "change", desc: "Increased Weed yield" },
