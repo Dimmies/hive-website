@@ -14,9 +14,23 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, January 19th 2021": {
+		version: "alpha-1.77.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed /shoe for females" },
+			1: { type: "add", desc: "Added /eng command shortcut for /engine" },
+			2: { type: "add", desc: "Added help suggestion to /givecash command" },
+			3: { type: "add", desc: "Added copying fingerprints to clipboard when taking them" },
+			4: { type: "bug", desc: "Fixed EMS Maverick livery when retreving it from the helipad" },
+			5: { type: "bug", desc: "Fixed clothing UI arrows not working" },
+			6: { type: "bug", desc: "Rewrote most of the casino chips code" },
+		},
+	},
+
 	"Thursday, January 13th 2021": {
 		version: "alpha-1.76.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Vespucci Markets" },
 			1: { type: "add", desc: "Added attaching/detaching to police alerts. This also displays # of attached officers." },
