@@ -14,9 +14,21 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, January 26th 2021": {
+		version: "alpha-1.77.1",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Tons of banking fixes" },
+			1: { type: "bug", desc: "Tons of Casino Chips fixes" },
+			2: { type: "bug", desc: "Cleaned up a bunch of unused commands/prints" },
+			3: { type: "bug", desc: "Fixed phone bank app not refreshing when transferring money" },
+			4: { type: "change", desc: "Rewrote jump tripping, now goes based off of how many times you jump rather than completely random change" },
+		},
+	},
+
 	"Wednesday, January 19th 2021": {
 		version: "alpha-1.77.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed /shoe for females" },
 			1: { type: "add", desc: "Added /eng command shortcut for /engine" },
