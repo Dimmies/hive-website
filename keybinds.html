@@ -95,8 +95,10 @@
 						<th style="column-width: 500px;">Action</th>
 					</tr>
 
+					<tr> <td>/cid</td> <td>/cid</td> <td>Displays your character CitizenID</td> </tr>
 					<tr> <td>/cash</td> <td>/cash</td> <td>Check your cash amount</td> </tr>
 					<tr> <td>/givecash [id] [amount]</td> <td>/givecash 1 1000</td> <td>Give another player money</td> </tr>
+					<tr> <td>/bill</td> <td>/bill</td> <td>Opens Billing UI</td> </tr>
 					<tr> <td>/job</td> <td>/job</td> <td>Check what Job/Rank you have</td> </tr>
 					<tr> <td>/id</td> <td>/id</td> <td>Check you current Server ID</td> </tr>
 					<tr> <td>/chips</td> <td>/chips</td> <td>Check how many Casino Chips you have</td> </tr>
@@ -113,16 +115,29 @@
 					<tr> <td>/seat [number]</td> <td>/seat 2</td> <td>Moves you to the specified seat of a vehicle</td> </tr>
 					<tr> <td>/clear</td> <td>/clear</td> <td>Clears the chat (for yourself)</td> </tr>
 					<tr> <td>/ooc [msg]</td> <td>/ooc I'm cuffed in the prison!</td> <td>Sends a global Out of Character message in chat <strong>(Use this sparingly!)</strong></td> </tr>
+					<tr> <td>/cinebars</td> <td>/cinebars</td> <td>Toggle Cinematic Bars</td> </tr>
 					<tr> <td>/scene [msg]</td> <td>/scene Pool of Blood</td> <td>Places a Point of Interest in the world that others can see and interact with</td> </tr>
 					<tr> <td>/sceneremove</td> <td>/sceneremove</td> <td>Removes the nearest scene</td> </tr>
 					<tr> <td>/scenehide</td> <td>/scenehide</td> <td>Hides/Unhides the nearest scene</td> </tr>
 					<tr> <td>/scenemove</td> <td>/scenemove</td> <td>Moves the nearest scene</td> </tr>
 					<tr> <td>/scenecopylast</td> <td>/scenecopylast</td> <td>Copies the settings of the last scene you created</td> </tr>
 					<tr> <td>/scenecopy</td> <td>/scenecopy</td> <td>Copies the settings of the scene you're closest to</td> </tr>
+					<tr> <td>/streamermode</td> <td>/streamermode</td> <td>Disables/Enables DJ booth music. (If you're streaming, you should probably use this to avoid DMCA!)</td> </tr>
+					<tr> <td>/h</td> <td>/h</td> <td>Ends phone call</td> </tr>
+					<tr> <td>/a</td> <td>/a</td> <td>Answers phone call</td> </tr>
+					<tr> <td>/roll [sides]</td> <td>/roll 6</td> <td>Rolls a dice of the specified amount of sides</td> </tr>
+					<tr> <td>/xhair</td> <td>/xhair</td> <td>Toiggles crosshair</td> </tr>
+					<!-- <tr> <td>/propfix</td> <td>/propfix</td> <td>Removes props attached to your person. (Useful to fix things like phones stuck to hand)</td> </tr> -->
 					<tr> <td></td> <td></td> <td></td> </tr>
 					<tr> <td>/hat</td> <td>/hat</td> <td>Toggle Helmet/Hat</td> </tr>
 					<tr> <td>/glasses</td> <td>/glasses</td> <td>Toggle Glasses</td> </tr>
 					<tr> <td>/mask</td> <td>/mask</td> <td>Toggle Mask</td> </tr>
+					<tr> <td>/vest</td> <td>/vest</td> <td>Toggle Vest</td> </tr>
+					<tr> <td>/shirt</td> <td>/shirt</td> <td>Toggle Shirt</td> </tr>
+					<tr> <td>/pants</td> <td>/pants</td> <td>Toggle Pants</td> </tr>
+					<tr> <td>/shoes</td> <td>/shoes</td> <td>Toggle Shoes</td> </tr>
+					<tr> <td>/bag</td> <td>/bag</td> <td>Toggle Bag</td> </tr>
+					<tr> <td>/hair</td> <td>/hair</td> <td>Toggle Hair</td> </tr>
 					<tr> <td></td> <td></td> <td></td> </tr>
 					<tr> <td>/createrace [amount]</td> <td>/createrace 150</td> <td>Start a street race with the specified buy-in</td> </tr>
 					<tr> <td>/stoprace</td> <td>/stoprace</td> <td>Stops the race you created</td> </tr>
@@ -136,8 +151,8 @@
 					<tr> <td>/createhouse [price] [tier]</td> <td>/createhouse 35000 1</td> <td>Creates a house at the current location <i>(Real Estate Only)</i></td> </tr>
 					<tr> <td>/addgarage</td> <td>/addgarage</td> <td>Adds a garage to the current house <i>(Real Estate Only)</i></td> </tr>
 					<tr> <td></td> <td></td> <td></td> </tr>
-					<tr> <td>/extras</td> <td>/extras</td> <td>Opens the extras/livery menu <i>(Police/EMS/Mechanics Only)</i></td> </tr>
-					<tr> <td>/livery [id]</td> <td>/livery 2</td> <td>Sets the livery of your vehicle <i>(Police/EMS/Mechanics Only)</i></td> </tr>
+					<tr> <td>/extras</td> <td>/extras</td> <td>Opens the extras/livery menu <i>(Police/EMS/Mechanics/Tuners Only)</i></td> </tr>
+					<tr> <td>/livery [id]</td> <td>/livery 2</td> <td>Sets the livery of your vehicle <i>(Police/EMS Only)</i></td> </tr>
 					<tr> <td>/jail</td> <td>/jail</td> <td>Opens the Jail Input Menu <i>(Police Only)</i></td> </tr>
 					<tr> <td>/unjail [id]</td> <td>/unjail 1</td> <td>Unjails the specified player <i>(Police Only)</i></td> </tr>
 					<tr> <td>/setjail [id] [time]</td> <td>/setjail 1 15</td> <td>Sets the jail time of the specified player <i>(Police Only)</i></td> </tr>
@@ -147,6 +162,8 @@
 					<tr> <td>/takedna</td> <td>/takedna</td> <td>Take a DNA sample of the specified player <i>(Police Only)</i></td> </tr>
 					<tr> <td>/uncuff [id]</td> <td>/uncuff 1</td> <td>Uncuff the specified player <i>(Police Only)</i></td> </tr>
 					<tr> <td>/pdmdt</td> <td>/pdmdt</td> <td>Opens the MDT <i>(Police Only)</i></td> </tr>
+					<tr> <td>/911r [id] [msg]</td> <td>/911r 1 We're on the way!</td> <td>Responds to the specified 911<i>(Police/EMS/Mechanics Only)</i></td> </tr>
+					<tr> <td>/callsign [callsign]]</td> <td>/callsign 151</td> <td>Sets your callsign<i>(Police/EMS Only)</i></td> </tr>
 				</table>
 
 				
