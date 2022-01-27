@@ -23,6 +23,9 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			2: { type: "bug", desc: "Cleaned up a bunch of unused commands/prints" },
 			3: { type: "bug", desc: "Fixed phone bank app not refreshing when transferring money" },
 			4: { type: "change", desc: "Rewrote jump tripping, now goes based off of how many times you jump rather than completely random change" },
+			5: { type: "change", desc: "Cocaine truck now uses a random truck model" },
+			6: { type: "change", desc: "Cocaine delivery locations are now random" },
+			7: { type: "change", desc: "Cocaine trucks now use a random plate" },
 		},
 	},
 
