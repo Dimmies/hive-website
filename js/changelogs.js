@@ -14,9 +14,22 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, January 28th 2021": {
+		version: "alpha-1.78.0",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fix \"You\'re busy\" notification after delivering Coke Chems" },
+			1: { type: "bug", desc: "Possibly fixed coke truck sometimes not spawning (Couldn't get this to replicate, but added some checks)" },
+			2: { type: "remove", desc: "Removed coke chem drop zone debug" },
+			3: { type: "bug", desc: "Fixed hats not saving/loading correctly (You may have to fiddle with the texture of the hat if you're still having issues)" },
+			4: { type: "add", desc: "Added Cigarettes and Cigars" },
+			5: { type: "change", desc: "Made Hacker Laptops consume on successful hack" },
+		},
+	},
+
 	"Wednesday, January 26th 2021": {
 		version: "alpha-1.77.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Tons of banking fixes" },
 			1: { type: "bug", desc: "Tons of Casino Chips fixes" },
