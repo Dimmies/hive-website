@@ -23,6 +23,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			2: { type: "change", desc: "Changed Laptop app loading" },
 			3: { type: "bug", desc: "Fixed warden error" },
 			4: { type: "bug", desc: "Fixed Bennys exploit" },
+			5: { type: "change", desc: "Downgraded server game build (should fix missing roads)" },
 		},
 	},
 
