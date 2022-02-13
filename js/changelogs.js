@@ -14,9 +14,21 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, February 13th 2021": {
+		version: "alpha-1.79.1",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added new Penal Code to the MDT" },
+			1: { type: "add", desc: "Added animation when using Laptop" },
+			2: { type: "change", desc: "Changed Laptop app loading" },
+			3: { type: "bug", desc: "Fixed warden error" },
+			4: { type: "bug", desc: "Fixed Bennys exploit" },
+		},
+	},
+
 	"Friday, February 11th 2021": {
 		version: "alpha-1.79.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added a drift track" },
 			1: { type: "add", desc: "Added Tuner Vehicles (@KlutchDecals & @McBignNasty)" },
