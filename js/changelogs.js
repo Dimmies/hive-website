@@ -14,9 +14,23 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, February 14th 2021": {
+		version: "alpha-1.79.2",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed vehicle mods being broken on quite a few vehicles" },
+			1: { type: "change", desc: "Update Penal Code" },
+			2: { type: "bug", desc: "Fixed Cocaine Dealer peds not deleting" },
+			3: { type: "add", desc: "Added Spray Painting / Graffiti" },
+			4: { type: "change", desc: "Increased weight of Armor and Bandages" },
+			5: { type: "change", desc: "Increased robbing player progress bar timer to 20 seconds" },
+			6: { type: "bug", desc: "Removed being able to cancel robbing player progress bar" },
+		},
+	},
+
 	"Sunday, February 13th 2021": {
 		version: "alpha-1.79.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added new Penal Code to the MDT" },
 			1: { type: "add", desc: "Added animation when using Laptop" },
