@@ -14,9 +14,46 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
-	"Monday, February 14th 2021": {
-		version: "alpha-1.79.2",
+	"Monday, February 28th 2022": {
+		version: "alpha-1.80.0",
 		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added an entire new inventory system" },
+			1: { type: "add", desc: "Added start of Weapon Attachments" },
+			2: { type: "add", desc: "Added weapon durability" },
+			3: { type: "change", desc: "Heavily tweaked weapon damage" },
+			4: { type: "add", desc: "Added new major heist" },
+			5: { type: "add", desc: "Added new prerequisite for PSB Heist" },
+			6: { type: "add", desc: "Added Bank Truck Robberies" },
+			7: { type: "add", desc: "Added Pops Diner Business" },
+			8: { type: "add", desc: "Added Gray Motors Business" },
+			9: { type: "add", desc: "Added new Graffiti art" },
+			10: { type: "add", desc: "Added ability to use third eye with a weapon out" },
+			11: { type: "add", desc: "Added muting call and text notification sounds when mute is toggled" },
+			12: { type: "add", desc: "Added ability to transfer ownership of a house through house phone app" },
+			13: { type: "bug", desc: "Fixed not being able to cycle through peds in character creator" },
+			14: { type: "bug", desc: "Fixed /propfix hiding carried items" },
+			15: { type: "bug", desc: "Fixed PlasmaGame clothing" },
+			16: { type: "bug", desc: "Fixed being able to spam vehicle spawn in garage phone app" },
+			17: { type: "bug", desc: "Fixed advert app showing over other apps occasionally" },
+			18: { type: "add", desc: "Added IFAKs" },
+			19: { type: "change", desc: "Increased Helicopter fuel consumption" },
+			20: { type: "bug", desc: "Fixed paycheck error" },
+			21: { type: "change", desc: "Changed PD MDT command to just /mdt" },
+			22: { type: "change", desc: "Increased vehicle repair distance" },
+			23: { type: "bug", desc: "Fixed Medical MDT not fading when unhovering MDT" },
+			24: { type: "bug", desc: "Fixed drift counter showing faintly sometimes" },
+			25: { type: "bug", desc: "Fixed Diving Gear Collision" },
+			26: { type: "bug", desc: "Fixed Mining Exploit" },
+			27: { type: "bug", desc: "Fixed Comet Safari Weapons" },
+			28: { type: "change", desc: "Rewrote crouching" },
+			29: { type: "optimize", desc: "Optimized pointing" },
+		},
+	},
+
+	"Monday, February 14th 2022": {
+		version: "alpha-1.79.2",
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed vehicle mods being broken on quite a few vehicles" },
 			1: { type: "change", desc: "Update Penal Code" },
@@ -28,7 +65,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		},
 	},
 
-	"Sunday, February 13th 2021": {
+	"Sunday, February 13th 2022": {
 		version: "alpha-1.79.1",
 		current: false,
 		"logs": {
@@ -41,7 +78,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		},
 	},
 
-	"Friday, February 11th 2021": {
+	"Friday, February 11th 2022": {
 		version: "alpha-1.79.0",
 		current: false,
 		"logs": {
@@ -98,7 +135,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		},
 	},
 
-	"Friday, January 28th 2021": {
+	"Friday, January 28th 2022": {
 		version: "alpha-1.78.0",
 		current: false,
 		"logs": {
@@ -111,7 +148,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		},
 	},
 
-	"Wednesday, January 26th 2021": {
+	"Wednesday, January 26th 2022": {
 		version: "alpha-1.77.1",
 		current: false,
 		"logs": {
@@ -126,7 +163,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		},
 	},
 
-	"Wednesday, January 19th 2021": {
+	"Wednesday, January 19th 2022": {
 		version: "alpha-1.77.0",
 		current: false,
 		"logs": {
@@ -140,7 +177,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		},
 	},
 
-	"Thursday, January 13th 2021": {
+	"Thursday, January 13th 2022": {
 		version: "alpha-1.76.0",
 		current: false,
 		"logs": {
@@ -185,7 +222,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		},
 	},
 
-	"Monday, January 10th 2021": {
+	"Monday, January 10th 2022": {
 		version: "alpha-1.75.0",
 		current: false,
 		"logs": {
@@ -205,7 +242,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		},
 	},
 
-	"Thursday, January 6th 2021": {
+	"Thursday, January 6th 2022": {
 		version: "alpha-1.74.0",
 		current: false,
 		"logs": {
@@ -220,7 +257,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		},
 	},
 
-	"Wednesday, January 5th 2021": {
+	"Wednesday, January 5th 2022": {
 		version: "alpha-1.73.3",
 		current: false,
 		"logs": {
@@ -231,7 +268,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 		},
 	},
 
-	"Tuesday, January 4th 2021": {
+	"Tuesday, January 4th 2022": {
 		version: "alpha-1.73.2",
 		current: false,
 		"logs": {
