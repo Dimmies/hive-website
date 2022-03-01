@@ -14,9 +14,25 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, March 1st 2022": {
+		version: "alpha-1.80.1",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Update MDT Penal code" },
+			1: { type: "remove", desc: "Removed Warrant expirations" },
+			2: { type: "add", desc: "Added DUI 'PogBoard' to courthouse" },
+			3: { type: "change", desc: "Bennys Repairs now take some time" },
+			4: { type: "add", desc: "Added clothing store to Prison" },
+			5: { type: "add", desc: "Added DJ booth to Record A Studio" },
+			6: { type: "bug", desc: "Fix Pops Diner Items not removing on use" },
+			7: { type: "remove", desc: "Removed unused player metadata check in inventory" },
+			8: { type: "bug", desc: "Possibly fixed new heist pooling crash (?)" },
+		},
+	},
+
 	"Monday, February 28th 2022": {
 		version: "alpha-1.80.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added an entire new inventory system" },
 			1: { type: "add", desc: "Added start of Weapon Attachments" },
