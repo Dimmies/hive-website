@@ -14,9 +14,22 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, March 2nd 2022": {
+		version: "alpha-1.80.2",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added Vanilla Unicorn Business" },
+			1: { type: "bug", desc: "Fixed court 'PogBoard' not loading until you reenter the room" },
+			2: { type: "bug", desc: "Fixed player owned businesses employees being on duty when logging in" },
+			3: { type: "bug", desc: "Fixed Heli Camera staying locked onto a vehicle even if it can't see it" },
+			4: { type: "add", desc: "Added working stools to Pops Diner" },
+			5: { type: "change", desc: "Decreased business ingredient costs" },
+		},
+	},
+
 	"Tuesday, March 1st 2022": {
 		version: "alpha-1.80.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Update MDT Penal code" },
 			1: { type: "remove", desc: "Removed Warrant expirations" },
