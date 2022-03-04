@@ -14,9 +14,22 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, March 4th 2022": {
+		version: "alpha-1.80.4",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added Vanilla Unicorn Menu Graffiti" },
+			1: { type: "add", desc: "Added ability to Shift + L Click to move full stacks" },
+			2: { type: "bug", desc: "Fixed vehicle degradation sometimes not loading" },
+			3: { type: "optimize", desc: "Optimized Tuner job" },
+			4: { type: "optimize", desc: "Optimized NPC Dialogue" },
+			5: { type: "change", desc: "Reverted Crouching cause Bear had an absolute MELTDOWN about it" },
+		},
+	},
+
 	"Tuesday, March 2nd 2022": {
 		version: "alpha-1.80.2",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Vanilla Unicorn Business" },
 			1: { type: "bug", desc: "Fixed court 'PogBoard' not loading until you reenter the room" },
