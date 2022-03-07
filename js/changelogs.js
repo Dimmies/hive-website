@@ -14,9 +14,33 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, March 7th 2022": {
+		version: "alpha-1.81.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Redid Meth Items/Loot" },
+			1: { type: "change", desc: "Redesigned Interact UI" },
+			2: { type: "bug", desc: "Added CCTV Cameras to new major heist for Police" },
+			3: { type: "change", desc: "Increased Weed Payout" },
+			4: { type: "change", desc: "Increased Meth Payout" },
+			5: { type: "change", desc: "Increased Percocet Payout" },
+			6: { type: "change", desc: "Increased Graffiti lifetime" },
+			7: { type: "add", desc: "Added ~48 House Locations" },
+			8: { type: "add", desc: "Added Hair Highlights" },
+			9: { type: "add", desc: "Added Color Pallet for Hair colors" },
+			10: { type: "add", desc: "Added ability to click Hive Logo in Inventory to reset amount to 0" },
+			11: { type: "bug", desc: "Fixed inventory give dupe" },
+			12: { type: "change", desc: "Increased Weapon Durability (aka Weapons last longer)" },
+			13: { type: "bug", desc: "Fixed Police Boss Menu" },
+			14: { type: "add", desc: "Added ability to Page Police at MRPD, Davis and Paleto front desks" },
+			15: { type: "bug", desc: "Fixed Idle Cam activating sometimes" },
+			16: { type: "change", desc: "Updated a few maps" },
+		},
+	},
+
 	"Friday, March 4th 2022": {
 		version: "alpha-1.80.4",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Vanilla Unicorn Menu Graffiti" },
 			1: { type: "add", desc: "Added ability to Shift + L Click to move full stacks" },
