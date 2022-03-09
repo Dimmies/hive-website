@@ -15,7 +15,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 	// bug / change / add / remove / misc / optimize
 
 	"Tuesday, March 8th 2022": {
-		version: "alpha-1.81.1",
+		version: "alpha-1.82.0",
 		current: true,
 		"logs": {
 			0: { type: "bug", desc: "Fixed Pickaxes being stackable"},
