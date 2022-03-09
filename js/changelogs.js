@@ -14,9 +14,32 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
-	"Sunday, March 7th 2022": {
-		version: "alpha-1.81.0",
+	"Tuesday, March 8th 2022": {
+		version: "alpha-1.81.1",
 		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed Pickaxes being stackable"},
+			1: { type: "bug", desc: "Fixed 'Deliver Product' being stuck on screen when delivering cocaine"},
+			2: { type: "bug", desc: "Fixed 'You're Busy' error when collecting cocaine"},
+			3: { type: "bug", desc: "Fixed not being able to sell Shitty and Pure Meth"},
+			4: { type: "add", desc: "Added High Five shared emote"},
+			5: { type: "add", desc: "Made Walk styles persistent"},
+			6: { type: "add", desc: "Added a free Bennys to the Test Track when test driving vehicles"},
+			7: { type: "add", desc: "Added ability for Police to access Pillbox elevators"},
+			8: { type: "add", desc: "Added ability to see vehicle trunk space before purchasing"},
+			9: { type: "change", desc: "Increased ground drop weight from 100lbs to 250lbs"},
+			10: { type: "change", desc: "Changed give notification to display the server id instead of characters name"},
+			11: { type: "add", desc: "Added ability to delete your Advertisements"},
+			12: { type: "add", desc: "Added ability to move camera while in hospital beds"},
+			13: { type: "add", desc: "Added captain rank access to SD Boss menu"},
+			14: { type: "add", desc: "Added 'ICU' tag to Medical MDT"},
+			15: { type: "bug", desc: "Fixed PD Weapons not having Serial Numbers (you'll need to rebuy weapons)"},
+		},
+	},
+
+	"Monday, March 7th 2022": {
+		version: "alpha-1.81.0",
+		current: false,
 		"logs": {
 			0: { type: "change", desc: "Redid Meth Items/Loot" },
 			1: { type: "change", desc: "Redesigned Interact UI" },
