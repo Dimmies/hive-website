@@ -14,9 +14,20 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, March 11th 2022": {
+		version: "alpha-1.82.1",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added Farming" },
+			1: { type: "remove", desc: "Removed some purchasable items from businesses (you'll need to get these from farming)" },
+			2: { type: "add", desc: "Added giving plastic when doing garbage job" },
+			3: { type: "bug", desc: "Fixed mining not working sometimes" },
+		},
+	},
+
 	"Tuesday, March 8th 2022": {
 		version: "alpha-1.82.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed Pickaxes being stackable"},
 			1: { type: "bug", desc: "Fixed 'Deliver Product' being stuck on screen when delivering cocaine"},
