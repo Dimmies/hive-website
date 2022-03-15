@@ -14,9 +14,30 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Tuesday, March 15th 2022": {
+		version: "alpha-1.83.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Made Cigarettes and Cigars stackable" },
+			1: { type: "change", desc: "Locked Coke Chems truck doors" },
+			2: { type: "change", desc: "Locked Bank Truck doors" },
+			3: { type: "bug", desc: "Fixed Thermite not working for Bank Trucks" },
+			4: { type: "bug", desc: "Fixed Savestra having mounted turrets" },
+			5: { type: "bug", desc: "Fixed house interiors sometimes not loading" },
+			6: { type: "bug", desc: "Fixed Cassettes not working" },
+			7: { type: "bug", desc: "Fixed police not being able to search 6th pocket" },
+			8: { type: "bug", desc: "Fixed being able to stack fueling" },
+			9: { type: "bug", desc: "Fixed Pops Diner & VU shop not working" },
+			10: { type: "bug", desc: "Fixed Pops Diner Shop interact UI" },
+			11: { type: "bug", desc: "Fixed mining loot table" },
+			12: { type: "bug", desc: "Yet another mining patch to hopefully fix item's not being given" },
+			13: { type: "add", desc: "Added Hellfire to Sergeant+" },
+		},
+	},
+
 	"Friday, March 11th 2022": {
 		version: "alpha-1.82.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Farming" },
 			1: { type: "remove", desc: "Removed some purchasable items from businesses (you'll need to get these from farming)" },
