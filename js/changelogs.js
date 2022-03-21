@@ -30,7 +30,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			9: { type: "bug", desc: "Attempt #1283719827313 at fixing door locks" },
 			10: { type: "bug", desc: "Fixed carry animations bugging out when being carried while dead" },
 			11: { type: "add", desc: "Added new Scout for EMS" },
-			12: { type: "add", desc: "Added new Buffalo STX for EMS" },
+			12: { type: "add", desc: "Added new Buffalo STX for Police" },
 			13: { type: "change", desc: "Made Laptop UI larger" },
 			14: { type: "add", desc: "Added locks to Pillbox garage doors" },
 			15: { type: "optimize", desc: "Optimized networked vehicle spawning" },
