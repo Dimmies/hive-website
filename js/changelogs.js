@@ -14,6 +14,29 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, March 21st 2022": {
+		version: "alpha-1.84.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Completely rewrote car boosting" },
+			1: { type: "bug", desc: "Fixed Count Hack timeout" },
+			2: { type: "add", desc: "Added ability to see list of attached officers to callouts" },
+			3: { type: "add", desc: "Added ability to copy the list of attached officers to clipboard for easier report writing" },
+			4: { type: "optimize", desc: "Optimized police callouts list" },
+			5: { type: "change", desc: "Changed police callouts to show Time Since instead of when the call came in" },
+			6: { type: "bug", desc: "Fixed sometimes being ragdolled when dying" },
+			7: { type: "add", desc: "Added Jumpsuit when being put in prison" },
+			8: { type: "add", desc: "Added Crypto Currency" },
+			9: { type: "bug", desc: "Attempt #1283719827313 at fixing door locks" },
+			10: { type: "bug", desc: "Fixed carry animations bugging out when being carried while dead" },
+			11: { type: "add", desc: "Added new Scout for EMS" },
+			12: { type: "add", desc: "Added new Buffalo STX for EMS" },
+			13: { type: "change", desc: "Made Laptop UI larger" },
+			14: { type: "add", desc: "Added locks to Pillbox garage doors" },
+			15: { type: "optimize", desc: "Optimized networked vehicle spawning" },
+		},
+	},
+
 	"Tuesday, March 15th 2022": {
 		version: "alpha-1.83.0",
 		current: true,
