@@ -54,7 +54,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	"Tuesday, March 15th 2022": {
 		version: "alpha-1.83.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "change", desc: "Made Cigarettes and Cigars stackable" },
 			1: { type: "change", desc: "Locked Coke Chems truck doors" },
