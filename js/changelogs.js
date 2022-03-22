@@ -14,9 +14,23 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, March 21st 2022 (2)": {
+		version: "alpha-1.84.1",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed boost peds not running to their car and just shooting" },
+			1: { type: "bug", desc: "Fixed not being placed back into Boost queue" },
+			2: { type: "bug", desc: "Fixed not getting contracts after cancelling all contracts" },
+			3: { type: "bug", desc: "Fixed boost cooldown check" },
+			4: { type: "optimize", desc: "Optimized Boosting" },
+			5: { type: "bug", desc: "Fixed `Left Queue` error" },
+			6: { type: "bug", desc: "Fixed Boost Blip not removing when cancelling an active contract" },
+		},
+	},
+
 	"Monday, March 21st 2022": {
 		version: "alpha-1.84.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "change", desc: "Completely rewrote car boosting" },
 			1: { type: "bug", desc: "Fixed Count Hack timeout" },
