@@ -14,9 +14,42 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, March 28th 2022": {
+		version: "alpha-1.85.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added new and improved Character Selection UI" },
+			1: { type: "add", desc: "Added new and improved Spawn Selection UI" },
+			2: { type: "change", desc: "Restyled Character Creation UI" },
+			3: { type: "add", desc: "Added sound effect when you break a pickaxe" },
+			4: { type: "change", desc: "Recoded Vehicle Boosting Queue system" },
+			5: { type: "add", desc: "Added additional checks to boosting for cop count" },
+			6: { type: "bug", desc: "Fixed being able to get multiple contracts" },
+			7: { type: "bug", desc: "Fixed Boosting Cooldown" },
+			8: { type: "change", desc: "Changed boosting notifications to show on the laptop" },
+			9: { type: "bug", desc: "Fixed Boosting leveling progression" },
+			10: { type: "change", desc: "Recoded laptop notification system" },
+			11: { type: "bug", desc: "Fixed HUD not hiding when in Character Selection and Spawn Selection screens" },
+			12: { type: "change", desc: "When using Pickaxes/Lumber Axes, the object now gets hidden from your back" },
+			13: { type: "add", desc: "Added lumber axe on back" },
+			14: { type: "bug", desc: "Fixed giving items not showing the amount" },
+			15: { type: "bug", desc: "Fixed being able to put people in locked vehicles" },
+			16: { type: "optimize", desc: "Optimized radial menu" },
+			17: { type: "bug", desc: "Fixed being pulled out of the vehicle when finished lockpicking" },
+			18: { type: "optimize", desc: "Optimized Lockpicking" },
+			19: { type: "bug", desc: "Fixed Paycheck error" },
+			20: { type: "change", desc: "Redid mining sound logic (still some issues here)" },
+			21: { type: "bug", desc: "Fixed higher level pickaxes not working (I have recoded this a billion times and cannot replicate the issue, please let me know if you still cannot mine with these pickaxes)" },
+			22: { type: "bug", desc: "Fixed Smelting not showing the amount of items received " },
+			23: { type: "add", desc: "Added Heli fuel pumps around the map (@Footsoldierz)" },
+			24: { type: "bug", desc: "Fixed Laptop Recycle bin app styling" },
+			25: { type: "bug", desc: "Fixed Buffalo STX back seats not working (@zeuz)" },
+		},
+	},
+
 	"Monday, March 21st 2022 (2)": {
 		version: "alpha-1.84.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed boost peds not running to their car and just shooting" },
 			1: { type: "bug", desc: "Fixed not being placed back into Boost queue" },
