@@ -2,6 +2,7 @@ $(document).ready(function() {
 	setTimeout(() => {
 		Tipped.create('.bug', "BUG", { position: 'right', size: 'x-small' });
 		Tipped.create('.fix', "BUG", { position: 'right', size: 'x-small' });
+		Tipped.create('.fixed', "BUG", { position: 'right', size: 'x-small' });
 		Tipped.create('.change', "CHANGE", { position: 'right', size: 'x-small' });
 		Tipped.create('.add', "ADD", { position: 'right', size: 'x-small' });
 		Tipped.create('.remove', "REMOVE", { position: 'right', size: 'x-small' });
