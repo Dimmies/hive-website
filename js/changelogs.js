@@ -14,9 +14,26 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, March 28th 2022 (2)": {
+		version: "alpha-1.85.1",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed not being able to craft Meth Pipes from Low and High grade meth" },
+			1: { type: "bug", desc: "Fixed paychecks being sent twice" },
+			2: { type: "bug", desc: "Fixed Vin Scratching Error" },
+			3: { type: "bug", desc: "Fixed contract not being completed when vin scratching" },
+			4: { type: "bug", desc: "Fixed test drive bennys charging for repairs" },
+			5: { type: "optimize", desc: "Optimized Bennys" },
+			6: { type: "bug", desc: "Fixed $0 being removed when buying free mods in Bennys" },
+			7: { type: "bug", desc: "Fixed Moles/Freckles not loading" },
+			8: { type: "bug", desc: "Fixed inventory give animation freezing movement while in a car" },
+			9: { type: "bug", desc: "Fixed Female jail clothing not being set correctly" },
+		},
+	},
+
 	"Monday, March 28th 2022": {
 		version: "alpha-1.85.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added new and improved Character Selection UI" },
 			1: { type: "add", desc: "Added new and improved Spawn Selection UI" },
