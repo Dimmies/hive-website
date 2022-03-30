@@ -15,9 +15,36 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, March 30th 2022": {
+		version: "alpha-1.86.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added ability to send Local OOC chat (/nearooc [msg])" },
+			1: { type: "add", desc: "Added Zipties to ziptie people" },
+			2: { type: "add", desc: "Added specific police alert for boosting" },
+			3: { type: "add", desc: "Added ability to cancel animation by aiming a gun" },
+			4: { type: "add", desc: "Added /watch" },
+			5: { type: "add", desc: "Added Clothing and Outfit zones to Pillbox Medical" },
+			6: { type: "change", desc: "Impound Fees are now dependent on vehicle class" },
+			7: { type: "bug", desc: "Fixed Impound not actually charging you" },
+			8: { type: "bug", desc: "Fixed Impound plate error" },
+			9: { type: "add", desc: "Added ability to toggle Underglow via Radial Menu" },
+			10: { type: "add", desc: "Added BOLO tab to Police MDT (these only last a single session)" },
+			11: { type: "bug", desc: "Fixed Police MDT case information not sending success notification" },
+			12: { type: "add", desc: "Added color codes to cases depending on assigned division" },
+			13: { type: "add", desc: "Police MDT Search results now show 'No Results' if nothing returns" },
+			14: { type: "bug", desc: "Fixed Cases not refreshing when creating a new case" },
+			15: { type: "bug", desc: "Fixed Cases list height" },
+			16: { type: "bug", desc: "Fixed Case ID not populating when creating a new case" },
+			17: { type: "add", desc: "Added new Fine Template" },
+			18: { type: "add", desc: "Added Metal Detector to Courthouse" },
+			19: { type: "add", desc: "Added streamer mode button to toggle a cover for the radio to hide your radio channel. (Can be toggled by clicking the button on the left side of the radio)" },
+		},
+	},
+
 	"Monday, March 28th 2022 (2)": {
 		version: "alpha-1.85.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed not being able to craft Meth Pipes from Low and High grade meth" },
 			1: { type: "bug", desc: "Fixed paychecks being sent twice" },
