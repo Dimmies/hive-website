@@ -15,9 +15,41 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, April 4th 2022": {
+		version: "alpha-1.87.0",
+		current: true,
+		"logs": {
+			0: {type: "change", desc: "Rewrote Zipties" },
+			1: {type: "remove", desc: "Removed Zipties from Mega Mall" },
+			2: {type: "change", desc: "Made Zipties craftable" },
+			3: {type: "change", desc: "Made Zipties one time use" },
+			4: {type: "add", desc: "Added using wire cutters to cut Zipties" },
+			5: {type: "bug", desc: "Fixed being able to uncuff someone by ziptying them" },
+			6: {type: "bug", desc: "Fixed being able to unziptie someone by cuffing them" },
+			7: {type: "optimize", desc: "Optimized Graffiti images" },
+			8: {type: "add", desc: "Added outfit zone to VU" },
+			9: {type: "change", desc: "Rewrote Garage UI" },
+			10: {type: "add", desc: "Added cancelling progress bars when tased" },
+			11: {type: "add", desc: "When locking vehicle doors/ignition you have, there is now a chance of leaving fingerprints on the vehicle" },
+			12: {type: "add", desc: "Added ability for LEO to lift fingerprints from Vehicles" },
+			13: {type: "bug", desc: "Fixed Golf Carts having insane trunk space" },
+			14: {type: "change", desc: "LEO now has to analyze Evidence (at MRPD Lab) to view the specific contents" },
+			15: {type: "add", desc: "Added /tempstatus [status] to set a temporary status for your player (ex: /tempstatus Smells like garbage)" },
+			16: {type: "bug", desc: "Fixed not ragdolling when blacking out" },
+			17: {type: "bug", desc: "Fixed Cows freaking out and running everywhere" },
+			18: {type: "add", desc: "Added Threat Levels (1-3) to PD MDT" },
+			19: {type: "bug", desc: "Fixed player records not sorting Newest to Oldest in PD MDT" },
+			20: {type: "bug", desc: "Fixed Penal Code having different sized boxes" },
+			21: {type: "bug", desc: "Fixed PD MDT dates not showing double digits" },
+			22: {type: "add", desc: "Added new Killhouse at Airport for LEO (@FootSoldierZ)" },
+			23: {type: "change", desc: "Made /me's last longer" },
+			24: {type: "bug", desc: "Fixed animation completely stopping you when unlocking/locking doors" },
+		},
+	},
+
 	"Wednesday, March 30th 2022": {
 		version: "alpha-1.86.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added ability to send Local OOC chat (/nearooc [msg])" },
 			1: { type: "add", desc: "Added Zipties to ziptie people" },
