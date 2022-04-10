@@ -15,9 +15,43 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, April 10th 2022": {
+		version: "alpha-1.88.0",
+		current: true,
+		"logs": {
+			0: {type: "change", desc: "Decreased weight of Fertilizer" },
+			1: {type: "change", desc: "Boosting cars now spawn with random fuel within a range" },
+			2: {type: "bug", desc: "Fixed Boosting radius not removing when cancelling" },
+			3: {type: "bug", desc: "Fixed Bank Trunks sometimes not having people in them" },
+			4: {type: "bug", desc: "Fixed Bank Trucks piling up sometimes" },
+			5: {type: "bug", desc: "Fixed Bank Trucks spawning random guards in the world sometimes" },
+			6: {type: "add", desc: "Added Football item that you can throw and catch" },
+			7: {type: "bug", desc: "Possibly fixed Casino Wheel rarely taking $500 and not spinning" },
+			8: {type: "add", desc: "Added parachuting minigame" },
+			9: {type: "bug", desc: "Fixed not being able to aim while in cover" },
+			10: {type: "bug", desc: "Fixed being forced out of a vehicle if you had a weapon in your hands" },
+			11: {type: "bug", desc: "Fixed being able to purchase something you already own from Bennys" },
+			12: {type: "bug", desc: "Fixed Interact UI staying visible while in Bennys" },
+			13: {type: "bug", desc: "Fixed Interact UI staying visible while in Clothing store" },
+			14: {type: "add", desc: "Added some debug prints to help pinpoint why Bennys is still taking fuel" },
+			15: {type: "add", desc: "Added Mintys Business" },
+			16: {type: "add", desc: "Added interacting with other players via Third Eye" },
+			17: {type: "add", desc: "Added more checks to interact to help stop a super rare crash" },
+			18: {type: "bug", desc: "Fixed receive item notification still showing the persons name instead of ID" },
+			19: {type: "bug", desc: "Fixed Garage app not spawning vehicles" },
+			20: {type: "add", desc: "Added a error notification if no fingerprints were found on a vehicle" },
+			21: {type: "change", desc: "Changed Treat Wounds Animation" },
+			22: {type: "add", desc: "Added ability to change characters while in jail" },
+			23: {type: "bug", desc: "Fixed MDT charges sometimes doubling up" },
+			24: {type: "add", desc: "Added a missing Car Wash blip" },
+			25: {type: "add", desc: "Added locks to prison stair ways" },
+			26: {type: "add", desc: "Locked Shoot house door" },
+		},
+	},
+
 	"Monday, April 4th 2022": {
 		version: "alpha-1.87.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: {type: "change", desc: "Rewrote Zipties" },
 			1: {type: "remove", desc: "Removed Zipties from Mega Mall" },
