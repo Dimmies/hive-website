@@ -15,9 +15,29 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
-	"Monday, April 10th 2022": {
-		version: "alpha-1.88.0",
+	"Monday, April 11th 2022": {
+		version: "alpha-1.89.0",
 		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed weed UI showing and getting stuck when a plant dies" },
+			1: { type: "bug", desc: "Fixed Roulette tables breaking when leaving the casino" },
+			2: { type: "optimize", desc: "Optimized Roulette" },
+			3: { type: "bug", desc: "Fixed Hair, Makeup, Face, Face Sliders getting reset when applying outfits" },
+			4: { type: "add", desc: "Added ability to move house furniture up and down by using Arrow Up/Down" },
+			5: { type: "add", desc: "Added /loadphone command to hot-reload your phone if your phone didn't load correctly" },
+			6: { type: "bug", desc: "Fixed Mentions and Hashtags images being super big" },
+			7: { type: "bug", desc: "Fixed not being able to view full images of Mention and Hashtags" },
+			8: { type: "add", desc: "Added Radio buttons to Radial Menu (LEO sees 1, 2, 3, 4, EMS and Mechanic Channels | EMS sees 5, 6, 7, 8 and PD Channels)" },
+			9: { type: "change", desc: "Swapped EMS and Police vehicle spawning to new server sided spawning. This should solve issues with vehicles flashing etc." },
+			10: { type: "add", desc: "Added requesting networked ownership of a police prop before trying to delete it." },
+			11: { type: "bug", desc: "Fixed females not having full health" },
+			12: { type: "bug", desc: "Fixed Player IDs not showing if the player is in an RC car" },
+		},
+	},
+
+	"Sunday, April 10th 2022": {
+		version: "alpha-1.88.0",
+		current: false,
 		"logs": {
 			0: {type: "change", desc: "Decreased weight of Fertilizer" },
 			1: {type: "change", desc: "Boosting cars now spawn with random fuel within a range" },
