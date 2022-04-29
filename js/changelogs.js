@@ -61,7 +61,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			39: { type: "add", desc: "Added ability to delete Advertisements" },
 			40: { type: "add", desc: "Added Advertisements automatically removing when you log out" },
 			41: { type: "change", desc: "Completely rewrote how Advertisements are saved and loaded" },
-			42: { type: "change", desc: "Sorted Advertisements by when they were poster" },
+			42: { type: "change", desc: "Sorted Advertisements by when they were posted" },
 			43: { type: "add", desc: "Added ability to send Emails to people (online or offline via the email app on your phone)" },
 			44: { type: "add", desc: "Added ability to view Twitter profile avatars in full screen" },
 			45: { type: "bug", desc: "Fixed phone not checking if profile image is a valid image" },
