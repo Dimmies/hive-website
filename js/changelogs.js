@@ -15,6 +15,21 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, April 29th 2022": {
+		version: "alpha-1.90.1",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed Jewelerbench being in crafting benches" },
+			1: { type: "add", desc: "Added check to make sure you can't pickup default crafting benches" },
+			2: { type: "bug", desc: "Fixed Vehicle Keys being given for every car if you lockpick" },
+			3: { type: "bug", desc: "Fixed Electrician Job not paying out" },
+			4: { type: "bug", desc: "Fixed police garage not spawning vehicles" },
+			5: { type: "bug", desc: "Fixed Ballas and Best Buds graffiti" },
+			6: { type: "change", desc: "Decreased price of Bee Hive and Queen Bee" },
+			7: { type: "change", desc: "Increased pay for Honey" },
+		},
+	},
+
 	"Thursday, April 28th 2022": {
 		version: "alpha-1.90.0",
 		current: true,
