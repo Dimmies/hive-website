@@ -15,7 +15,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
-	"Thursday, April 128th 2022": {
+	"Thursday, April 28th 2022": {
 		version: "alpha-1.90.0",
 		current: true,
 		"logs": {
