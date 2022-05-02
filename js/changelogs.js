@@ -16,7 +16,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 	// bug / change / add / remove / misc / optimize
 
 	"Sunday, May 1st 2022": {
-		version: "alpha-1.90.2",
+		version: "alpha-1.90.3",
 		current: true,
 		"logs": {
 			0: { type: "bug", desc: "Fixed Drill progress resetting after fixing jam" },
