@@ -15,9 +15,30 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, May 1st 2022": {
+		version: "alpha-1.90.2",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed Drill progress resetting after fixing jam" },
+			1: { type: "change", desc: "Decreased drill jam chance" },
+			2: { type: "bug", desc: "Fixed Garbage job crashing client when holding trash bag" },
+			3: { type: "bug", desc: "Fixed Lumber spitting error if you don't have an axe" },
+			4: { type: "bug", desc: "Fixed Sandy Sheriff Station not having a blip" },
+			5: { type: "bug", desc: "Fixed scrap job breaking progress bars if you exit the zone while searching" },
+			6: { type: "bug", desc: "Fixed scrap job debug zones drawing" },
+			7: { type: "change", desc: "Increased scrap job search time" },
+			8: { type: "add", desc: "Updated SWAT Killhouse" },
+			9: { type: "add", desc: "Updated Heli Pumps" },
+			10: { type: "add", desc: "Added missing parking lot gate locks to Sandy Sheriff station" },
+			11: { type: "bug", desc: "Fixed Boss Menu not refreshing when hiring/firing someone" },
+			12: { type: "add", desc: "Added a manual refresh button to Boss Menu" },
+			13: { type: "add", desc: "Added door lock to side entrance of Dynasty 8" },
+		},
+	},
+
 	"Friday, April 29th 2022": {
 		version: "alpha-1.90.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed Jewelerbench being in crafting benches" },
 			1: { type: "add", desc: "Added check to make sure you can't pickup default crafting benches" },
@@ -118,7 +139,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			81: { type: "change", desc: "Cigarettes now use /e smoke and keep you in the animation until you manually cancel it" },
 			82: { type: "add", desc: "Added some missing seats to Dynasty 8" },
 			83: { type: "change", desc: "Increased Tec-9 and SMG Damage" },
-			84: { type: "change", desc: "Radios now use a slider for volume instead of sliders" },
+			84: { type: "change", desc: "Radios now use a slider for volume instead of buttons" },
 			85: { type: "change", desc: "Increased Fishing Payout" },
 			86: { type: "change", desc: "Increased Garbage Payout" },
 			87: { type: "change", desc: "Increased Hunting Payout" },
