@@ -15,9 +15,24 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, May 4th 2022": {
+		version: "alpha-1.90.4",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed Bennys resetting rims" },
+			1: { type: "bug", desc: "Fixed Bennys causing Reliable Network Overlow disconnect" },
+			2: { type: "add", desc: "Added a few more loading screen images" },
+			3: { type: "add", desc: "Added Cat Cafe Business" },
+			4: { type: "add", desc: "Added Best Buds Business" },
+			5: { type: "add", desc: "Added Rexs Dino Diner Business" },
+			6: { type: "bug", desc: "Fixed Zipties not being removable" },
+			7: { type: "add", desc: "May the 4th be with you" },
+		},
+	},
+
 	"Sunday, May 1st 2022": {
 		version: "alpha-1.90.3",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed Drill progress resetting after fixing jam" },
 			1: { type: "change", desc: "Decreased drill jam chance" },
@@ -53,7 +68,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	"Thursday, April 28th 2022": {
 		version: "alpha-1.90.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added new Loading Screen consisting of images taken in Hive" },
 			1: { type: "bug", desc: "Fixed paycheck exploit" },
