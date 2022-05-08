@@ -15,9 +15,37 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Sunday, May 8th 2022": {
+		version: "alpha-1.91.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added Bennys to Paleto" },
+			1: { type: "change", desc: "Changed Cat Cafe to use outfits instead of clothing store" },
+			2: { type: "add", desc: "Added ability to unload a weapon" },
+			3: { type: "bug", desc: "Possibly fixed ads not deleting when a player leaves the server" },
+			4: { type: "change", desc: "Remade shop blips" },
+			5: { type: "add", desc: "Added timeout to control request for doorlocks" },
+			6: { type: "add", desc: "Added headshot multiplier" },
+			7: { type: "bug", desc: "Fixed not being able to place bee hives after placing an initial 5" },
+			8: { type: "change", desc: "Increase player owned business stash size" },
+			9: { type: "add", desc: "Added missing breadbox to Mintys shop" },
+			10: { type: "bug", desc: "Fixed Mintys and VU items being removed twice." },
+			11: { type: "bug", desc: "Fixed being able to process logs even if you have none" },
+			12: { type: "bug", desc: "Fixed Lumber only showing 1 log even if you've processed more than 1" },
+			13: { type: "remove", desc: "Disabled Nitrous purge sounds for now" },
+			14: { type: "bug", desc: "Fixed Mintys alcohol having no effects" },
+			15: { type: "change", desc: "Remade how alcohol is counted and how you get drunk" },
+			16: { type: "change", desc: "Water removes more drunk effect now" },
+			17: { type: "bug", desc: "Fixed motorcycles ejecting you when getting back on" },
+			18: { type: "add", desc: "Added another door lock to Cat Cafe" },
+			19: { type: "add", desc: "Added ability to rename cases in PD MDT" },
+			20: { type: "add", desc: "Added ability to change divisions of cases in PD MDT" },
+		},
+	},
+
 	"Sunday, May 4th 2022": {
 		version: "alpha-1.90.4",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed Bennys resetting rims" },
 			1: { type: "bug", desc: "Fixed Bennys causing Reliable Network Overlow disconnect" },
