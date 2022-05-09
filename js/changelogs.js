@@ -15,6 +15,19 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, May 9th 2022": {
+		version: "alpha-1.91.1",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added CGF Graffiti" },
+			1: { type: "add", desc: "Added new VB Graffiti" },
+			2: { type: "remove", desc: "Removed G59 Graffiti" },
+			3: { type: "remove", desc: "Removed ability to mod cars you don't own" },
+			4: { type: "remove", desc: "Disabled cleanup code that might be the source of some client crashes" },
+			5: { type: "add", desc: "Added new model for cleaning rag so it's not invisible on one side." },
+		},
+	},
+
 	"Sunday, May 8th 2022": {
 		version: "alpha-1.91.0",
 		current: true,
