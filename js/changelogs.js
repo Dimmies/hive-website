@@ -26,6 +26,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			4: { type: "add", desc: "Added 'Case Creation' and 'Case Updated' date views to police MDT cases" },
 			5: { type: "add", desc: "Added ability for police to create a call for things that aren't automatically sent (/createcall [info])" },
 			6: { type: "bug", desc: "Fixed a few Sandy Sheriff door locks always saying 'Locking'" },
+			7: { type: "bug", desc: "Fixed VB and CGF Graffiti" },
 		},
 	},
 
