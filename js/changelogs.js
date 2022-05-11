@@ -15,9 +15,23 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, May 11th 2022": {
+		version: "alpha-1.91.2",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed house furniture models sometimes breaking UI" },
+			1: { type: "bug", desc: "Fixed Master Plushie furniture not loading" },
+			2: { type: "remove", desc: "Disabled being able to open inventory while a progress bar is active" },
+			3: { type: "bug", desc: "Fixed ammo unload exploit" },
+			4: { type: "add", desc: "Added 'Case Creation' and 'Case Updated' date views to police MDT cases" },
+			5: { type: "add", desc: "Added ability for police to create a call for things that aren't automatically sent (/createcall [info])" },
+			6: { type: "bug", desc: "Fixed a few Sandy Sheriff door locks always saying 'Locking'" },
+		},
+	},
+
 	"Monday, May 9th 2022": {
 		version: "alpha-1.91.1",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added CGF Graffiti" },
 			1: { type: "add", desc: "Added new VB Graffiti" },
@@ -30,7 +44,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	"Sunday, May 8th 2022": {
 		version: "alpha-1.91.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added Bennys to Paleto" },
 			1: { type: "change", desc: "Changed Cat Cafe to use outfits instead of clothing store" },
