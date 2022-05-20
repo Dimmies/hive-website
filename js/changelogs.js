@@ -15,9 +15,26 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, May 20th 2022": {
+		version: "alpha-1.91.3",
+		current: true,
+		"logs": {
+			0: { type: "bug", desc: "Fixed Cocaine showing only 1 being added when doing any part." },
+			1: { type: "change", desc: "Decreased Bank Keycard drop chance" },
+			2: { type: "change", desc: "Decreased how often you blackout from headshots" },
+			3: { type: "add", desc: "Added a chance head injuries heal over time" },
+			4: { type: "bug", desc: "Fixed being able to sometimes get free gas" },
+			5: { type: "add", desc: "Added Cat Cafe menu grafitti" },
+			6: { type: "remopve", desc: "Removed some duplicating gates in VB area" },
+			7: { type: "bug", desc: "Fixed crosshair being wildly off-center" },
+			8: { type: "add", desc: "Readded ability to access Bennys while testing vehicles or in Drift Track" },
+			9: { type: "remove", desc: "Removed inventories from wheelchairs" },
+		},
+	},
+
 	"Wednesday, May 11th 2022": {
 		version: "alpha-1.91.2",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed house furniture models sometimes breaking UI" },
 			1: { type: "bug", desc: "Fixed Master Plushie furniture not loading" },
