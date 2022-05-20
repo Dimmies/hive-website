@@ -25,7 +25,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			3: { type: "add", desc: "Added a chance head injuries heal over time" },
 			4: { type: "bug", desc: "Fixed being able to sometimes get free gas" },
 			5: { type: "add", desc: "Added Cat Cafe menu grafitti" },
-			6: { type: "remopve", desc: "Removed some duplicating gates in VB area" },
+			6: { type: "remove", desc: "Removed some duplicating gates in VB area" },
 			7: { type: "bug", desc: "Fixed crosshair being wildly off-center" },
 			8: { type: "add", desc: "Readded ability to access Bennys while testing vehicles or in Drift Track" },
 			9: { type: "remove", desc: "Removed inventories from wheelchairs" },
