@@ -15,9 +15,25 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday, June 2nd 2022": {
+		version: "alpha-1.92.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added 11 new loading screen images" },
+			1: { type: "bug", desc: "Fixed Loading Screen not scaling with resolution" },
+			2: { type: "add", desc: "Added new Casino Interior" },
+			3: { type: "add", desc: "Added 2 more roulette tables" },
+			4: { type: "add", desc: "Added elevator to Casino to access Rooftop area" },
+			5: { type: "add", desc: "Added a car display to Casino" },
+			6: { type: "add", desc: "Added new Townhall Interior" },
+			7: { type: "remove", desc: "Removed old Courthouse Interior (new one can be found in Townhall)" },
+			8: { type: "add", desc: "Added GoKart Racing (BETA)" },
+		},
+	},
+
 	"Friday, May 20th 2022": {
 		version: "alpha-1.91.3",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "bug", desc: "Fixed Cocaine showing only 1 being added when doing any part." },
 			1: { type: "change", desc: "Decreased Bank Keycard drop chance" },
