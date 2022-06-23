@@ -2,90 +2,143 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
 
         <title>Hive Roleplay</title>
 
         <script src="./libs/jquery.min.js"></script>
 
         <link rel="stylesheet" href="./css/index.css">
-        <link rel="stylesheet" href="./css/about.css">
         <link rel="stylesheet" href="./css/apply.css">
 
         <link rel="icon" href="./assets/favicon.ico">
 
         <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+        <!-- Bootstrap -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.5/umd/popper.min.js" integrity="sha512-8cU710tp3iH9RniUh6fq5zJsGnjLzOWLWdZqBMLtqaoZUA6AWIE34lwMB3ipUNiTBP5jEZKY95SfbNnQ8cCKvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<link rel="stylesheet" href="./libs/bootstrap.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous"></script>
     </head>
 
-    <body>
+    <body style="overflow-y: auto; background-color: #16161e;">
 
-        <div id="content">
-            <div id="navbar">
-                <a id="nav-btn" href="./about.html">ABOUT US</a>
-                <a id="nav-btn" href="./rules.html">RULES</a>
-                <a id="nav-btn" href="./apply.html">APPLY</a>
-                <a href="./index.html"><img id="nav-img" src="./assets/hivelogo_512.png"></a>
-                <a id="nav-btn" href="https://discord.gg/8JjR4zfeKT" target="_blank">DISCORD</a>
-                <a id="nav-btn" href="./changelogs.html">CHANGELOGS</a>
-                <a id="nav-btn" href="./keybinds.html">KEYBINDS</a>
-            </div>
+        <a href="./index.html"><img id="navbar-icon" src="./assets/hivelogo.png"></a>
 
-            <span style="height: 50px;"></span>
+        <div id="SITE-NAVBAR">
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="apply-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">APPLICATIONS</a>
+                            <div class="dropdown-menu" aria-labelledby="apply-dropdown">
+                                <a class="dropdown-item" href="https://forms.gle/7hB2tFGGEq28u2Wa7" target="_blank"><i class="apply-item fas fa-shield-alt"></i>Sheriff</a>
+                                <a class="dropdown-item" href="https://forms.gle/9TtdxVRNKNdRt1VH9" target="_blank"><i class="apply-item fas fa-user-md"></i>EMS</a>
+                                <a class="dropdown-item" href="https://forms.gle/oed475vfAEyDkZLC6" target="_blank"><i class="apply-item fas fa-user-shield"></i>Staff</a>
+                                <a class="dropdown-item" href="https://forms.gle/Kmd1XTEbmZTebkEr8" target="_blank"><i class="apply-item fas fa-file-code"></i>Developer</a>
+                            </div>
+                        </li>
 
-            <h1 id="page-title">APPLY</h1>
+                        <li class="nav-item"> <a class="nav-link" href="./rules.html">RULES</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT US</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="./keybinds.html">KEYBINDS</a> </li>
+                        <!-- <li class="nav-item"> <a class="nav-link" href="./changelogs.html">CHANGELOGS</a> </li> -->
+                        <li class="nav-item"> <a class="nav-link" href="https://ko-fi.com/hiverp" target="_blank">SUPPORT</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://discord.gg/hive-rp" target="_blank">DISCORD</a> </li>
+                    </ul>
+                </div>
+                <i id="nav-burger" class="fas fa-bars" style="font-size: 30px;" onclick="ShowMobileNav()"></i>
+            </nav>
+        </div>
 
-            <div id="apply-content">
-                <div id="ss-grid">
-                    <div id="apply-card" style="width: 80%; height: 450px;">
-                        <i class="fas fa-address-card fa-5x"></i>
-                        <p id="card-title">Whitelisting Process</p>
-                        <div id="card-desc">
-                            <p font-size: 15px;>You must know and understand the rules, found <a style="color: #bc9323;" href="./rules.html">at this link</a>. Processing may take up to 1-3 Days.</li>
-                            <p font-size 17px;>Click on the 'APPLY' button and fill out the application form in its entirety. Be sure to read each section carefully and take your time. Once your application is submitted, our Staff will review your application. If your application is approved, you will receive notice through Discord along with the ‘Whitelisted’ role. If your application is denied, you will receive notice through Discord accompanied with feedback and an explanation on why the application was denied. We give everyone 3 attempts on applying for whitelisting. If your application is denied after the third attempt, you will be able to re-apply after 30 days.</p>
-                        </div>
-                        <a id="card-btn" href="https://forms.gle/qnGh2zucrFsai5ccA" target="_blank">APPLY</a>
-                        <span style="height: 20px;"></span>
-                    </div>
+        <div id="mobile-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"> <a class="nav-link" href="./apply.html"> APPLY </a> </li>
+                <li class="nav-item"> <a class="nav-link" href="./rules.html">RULES</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT US</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="./keybinds.html">KEYBINDS</a> </li>
+                <!-- <li class="nav-item"> <a class="nav-link" href="./changelogs.html">CHANGELOGS</a> </li> -->
+                <li class="nav-item"> <a class="nav-link" href="https://ko-fi.com/hiverp">SUPPORT</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="https://discord.gg/hive-rp" target="_blank">DISCORD</a> </li>
+            </ul>
+        </div>
 
-                    <div id="apply-card">
-                        <i class="fas fa-shield-alt fa-5x"></i>
-                        <p id="card-title">POLICE</p>
-                        <p id="card-desc">Protecting those who call San Andreas home is one of the most honorable and demanding fields of practice. Serving the community while risking your own safety is not a walk in the park. Do you have what it takes? Click on the ‘APPLY’ button below to fill out an application for the Los Santos County Sheriff’s Department. Processing may take up to 48 hours.</p>
-                        <a id="card-btn" href="https://forms.gle/7hB2tFGGEq28u2Wa7" target="_blank">APPLY</a>
-                    </div>
+        
+        <div id="page-body">
+            <h1 id="team-list-name" style="text-align: center; margin-top: 50px;">APPLY</h1>
+            <!-- <div id="apply-whitelist">
+                <i id="card-icon" class="fas fa-address-book"></i>
+                <h4>WHITELIST</h4>
 
-                    <div id="apply-card">
-                        <i class="fas fa-user-md fa-5x"></i>
-                        <p id="card-title">EMS</p>
-                        <p id="card-desc">From fractures to gunshot wounds, the medical field is not for the faint hearted. In an instant, you can find yourself performing CPR on a patient lying on a surgery table while you and your colleagues try to save them from flatlining. Can you save them? Click on the ‘APPLY’ Button below to fill out an application for the EMS department. Processing may take up to 48 hours.</p>
-                        <a id="card-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd3jy8Lz_vGfqWUhpxWBmywn3cfwmQTh5SUnsFfbDbSCDM4Nw/viewform" target="_blank">APPLY</a>
-                    </div>
+                <div style="height: 20px;"></div>
+                <img style="opacity: 0.5; width: 30%;" src="./assets/pgbreak.png">
+                <div style="height: 20px;"></div>
 
-                    <div id="apply-card">
-                        <i class="fas fa-file-code fa-5x"></i>
-                        <p id="card-title">DEVELOPER</p>
-                        <p id="card-desc">Do you have experience or knowledge of any capacity in the Development Field of FiveM? Do you want to help build upon what we have established to bring the Community of Hive and even better product? Click on the ‘Apply’ Button below to fill out an application for a Developer Role within Hive. Processing may take up to 48 hours.</p>
-                        <a id="card-btn" href="https://forms.gle/7dzBdSniUvci92ZQ6" target="_blank">APPLY</a>
-                    </div>
+                <p style="margin: 0;"><strong>You must know and understand the rules, found <a href="" target="_blank" style="color: #bc9323;">here</a>!</strong></p>
+                <p style="margin: 0;"><strong>Applications may take up to 48 hours to process!</strong></p>
+                <p style="margin-top: 10px;">Once your application is submitted, our Staff will review your application. If your application is approved, you will receive notice through <a href="https://discord.gg/hive-rp" target="_blank" style="color: #bc9323;">Discord</a> along with the <i>Whitelisted</i> role. If your application is denied, you will receive notice through Discord accompanied with feedback and an explanation on why the application was denied. We give everyone 3 attempts on applying for whitelisting. If your application is denied after the third attempt, you will be able to re-apply after 30 days.</p>
+                <a id="card-btn" href="https://forms.gle/qnGh2zucrFsai5ccA" target="_blank">APPLY</a>
+            </div> -->
 
-                    <div id="apply-card">
-                        <i class="fas fa-user-shield fa-5x"></i>
-                        <p id="card-title">STAFF</p>
-                        <p id="card-desc">Do you want to give back and help the community grow above and beyond expectations? Do you want to be involved with the evolution of Hive Roleplay? Click on the 'APPLY' button below to fill out an application for a Staff rank within Hive. Processing may take up to 48 hours.</p>
-                        <a id="card-btn" href="https://forms.gle/hxrkEBcSUnRu1bQQ9" target="_blank">APPLY</a>
-                    </div>
+            <div id="app-group">
+                <div id="apply-police">
+                    <i id="card-icon" class="fas fa-shield-alt"></i>
+                    <h4>SHERIFF</h4>
+    
+                    <div style="height: 20px;"></div>
+                    <img style="opacity: 0.5; width: 250px;" src="./assets/pgbreak.png">
+                    <div style="height: 20px;"></div>
+    
+                    <!-- <p style="margin-top: 10px;">Protecting those who call San Andreas home is one of the most honorable and demanding fields of practice. Serving the community while risking your own safety is not a walk in the park.</p> -->
+                    <a href="https://forms.gle/7hB2tFGGEq28u2Wa7" target="_blank"><button class="apply-btn"><i class="fas fa-file-signature"></i></button></a>
+                </div>
+    
+                <div id="apply-ems">
+                    <i id="card-icon" class="fas fa-user-md"></i>
+                    <h4>EMS</h4>
+    
+                    <div style="height: 20px;"></div>
+                    <img style="opacity: 0.5; width: 250px;" src="./assets/pgbreak.png">
+                    <div style="height: 20px;"></div>
+    
+                    <!-- <p style="margin-top: 10px;">From fractures to gunshot wounds, the medical field is not for the faint hearted. In an instant, you can find yourself performing CPR on a patient lying on a surgery table while you and your colleagues try to save them from flatlining.</p> -->
+                    <a href="https://forms.gle/9TtdxVRNKNdRt1VH9" target="_blank"><button class="apply-btn"><i class="fas fa-file-signature"></i></button></a>
                 </div>
             </div>
 
-            <div id="footer">
-                <img id="footer-img" src="./assets/hivelogo_512.png">
-                <p id="footer-txt">Made by Dimmies</p>
+
+            <div id="app-group">
+                <div id="apply-staff">
+                    <i id="card-icon" class="fas fa-user-shield"></i>
+                    <h4>STAFF</h4>
+
+                    <div style="height: 20px;"></div>
+                    <img style="opacity: 0.5; width: 250px;" src="./assets/pgbreak.png">
+                    <div style="height: 20px;"></div>
+
+                    <!-- <p style="margin-top: 10px;">Do you want to give back and help the community grow above and beyond expectations? Do you want to be involved with the evolution of Hive Roleplay? Click on the <i>APPLY</i>  button below to fill out an application for a Staff rank within Hive.</p> -->
+                    <a href="https://forms.gle/oed475vfAEyDkZLC6" target="_blank"><button class="apply-btn"><i class="fas fa-file-signature"></i></button></a>
+                </div>
+
+                <div id="apply-dev">
+                    <i id="card-icon" class="fas fa-file-code"></i>
+                    <h4>DEVELOPER</h4>
+
+                    <div style="height: 20px;"></div>
+                    <img style="opacity: 0.5; width: 250px;" src="./assets/pgbreak.png">
+                    <div style="height: 20px;"></div>
+
+                    <!-- <p style="margin-top: 10px;">Do you have experience or knowledge of any capacity in the Development Field of FiveM? Do you want to help build upon what we have established to bring the Community of Hive and even better product? Click on the <i>APPLY</i>  Button below to fill out an application for a Developer Role within Hive.</p> -->
+                    <a href="https://forms.gle/Kmd1XTEbmZTebkEr8" target="_blank"><button class="apply-btn"><i class="fas fa-file-signature"></i></button></a>
+                </div>
             </div>
+
+            <div style="margin-bottom: 150px;"></div>
         </div>
 
-
+        <script type="text/javascript" src="./data/staff.js"></script>
         <script src="./js/index.js"></script>
-        <script src="./js/about.js"></script>
         <script src="./js/apply.js"></script>
     </body>
 </html>

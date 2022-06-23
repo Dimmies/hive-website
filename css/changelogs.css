@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-* { font-family: 'Nunito', sans-serif; }
+* { font-family: 'Nunito', sans-serif; color: white; }
 
 #changelogs {
 	display: flex; flex-direction: column; flex-wrap: wrap; align-items: center;

@@ -1,69 +1,54 @@
-#page-title {
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
+#page-body { 
+    width: 100vw;
+    position: absolute;
 
-    font-size: 50px;
-    padding: 0; margin: 0;
-
-    margin-top: 80px;
-    margin-bottom: 10px;
-}
-
-#page-desc {
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-
-    font-size: 13px;
-    padding: 0; margin: 0;
-    margin-bottom: 80px;
-}
-
-#apply-content {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#ss-grid {
-    flex-direction: row;
-    width: 70%;
-    margin-bottom: 100px;
-    flex-wrap: wrap;
-}
-
-#apply-card {
-    margin: 20px;
     display: flex; justify-content: center; align-items: center; flex-direction: column;
-    width: 300px; height: 400px;
-
-    background-color: #13151a;
-
-    border-radius: 8px;
-
-    text-align: center;
-
-    padding: 20px;
-
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.5vh;
 }
 
-#card-title {
-    font-size: 2vh;
-    font-weight: bold;
+#card-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
 #card-btn {
-    background-color: #bc9323;
-    border: none;
-    border-radius: 3px;
-    font-family: 'Nunito', sans-serif;
+    display: flex; justify-content: center; align-items: center;
+    width: 150px; height: 30px;
+    background-color: #e2bb5e;
+    color: white;
+    border: none; border-radius: 5px;
+}
 
-    padding: 10px 20px;
+#apply-whitelist {
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    width: 60%;
+    background-color: #1f222b;
+    padding: 50px;
+    border: none; border-radius: 10px;
+}
+
+#apply-police, #apply-ems, #apply-staff, #apply-dev {
+    margin: 50px 20px 0px 20px;
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    width: 50%;
+    background-color: #1f222b;
+    padding: 50px;
+    border: none; border-radius: 10px;
+}
+
+#app-group {
+    display: flex; justify-content: center; align-items: center;
+}
+
+.apply-btn {
+    width: 30px; height: 30px;
+    color: white;
+    background: #e2bb5e;
+    border: none; border-radius: 3px;
     transition: .2s ease;
 }
 
-#card-desc {
-    /* display: none; */
-    margin: 20px 0px 50px 0px;
+.apply-btn:hover {
+    background: transparent;
+    border: 1px solid #e2bb5e;
+    width: 100px;
 }

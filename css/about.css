@@ -1,80 +1,34 @@
-#content {
-    top: 0px;
-
-    color: white;
+body {
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #16161e;
 }
 
-#about-us {
-    width: 100%;
+#page-body { padding-bottom: 10%; }
 
+.about-list { 
     display: flex; justify-content: center; align-items: center;
-
-    margin-bottom: 50px;
 }
 
-#about-text {
-    width: 40%;
+#user-img { 
+    display: flex; justify-content: center; align-items: center;
+}
 
-    text-align: center;
+#user-img > img {
+    width: 50%;
+    margin: 30px;
+    transition: .2s ease;
+}
+
+.about-list {
+    display: flex; justify-content: center; flex-wrap: wrap;
+}
+
+.fa-twitter, .fa-twitch {
     color: white;
-    font-family: 'Nunito', sans-serif;
+    margin: 15px 5px 0px 5px;
 }
 
-#nav-img {
-    width: 50px;
-}
-
-#nav-img:hover {
-    transform: scale(1.0);
-}
-
-#team-img {
-    clip-path: circle(50% at center);
-    height: 160px;
-}
-
-#ss-grid {
-    padding: 0;
-    flex-direction: column;
-    padding-top: 20px;
-
-    flex-wrap: wrap;
-}
-
-#team-list-name {
-    color: white;
-    font-family: 'Nunito', sans-serif;
-
-    padding: 20px 0px 0px 0px; margin: 0;
-}
-
-.team-list {
-    display: flex; justify-content: center; align-items: center; flex-wrap: wrap;
-    width: 100%;
-    /* background-color: red; */
-
-    margin-bottom: 20px;
-
-    text-align: center;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-}
-
-#team-listing {
-    margin: 40px;
-    border-radius: 2px solid white;
-}
-
-#footer {
-    background-color: rgba(0, 0, 0, 0.459);
-    width: 100%; height: 200px;
-
-    display: flex; justify-content: center; align-items: center; flex-direction: column;
-
-    position: relative;
-}
-
-#team-social {
-    position: relative;
-    margin-right: 5px;
+#user-socials {
+    min-height: 30px;
 }

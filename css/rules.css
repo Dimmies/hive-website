@@ -1,3 +1,21 @@
+body {
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #16161e;
+}
+
+#page-body {
+    padding-bottom: 5%;
+    top: 20%;
+}
+
+/* a { text-decoration: none !important; color: #e3b855 !important; opacity: 0.7; } */
+
+#admin-say {
+    font-size: 14px;
+    color: #f1c40f;
+}
+
 #rules-content {
     display: flex; justify-content: center; align-items: center;
     text-align: center;
@@ -12,4 +30,29 @@
     text-align: center;
 
     font-family: 'Nunito', sans-serif;
+}
+
+#rules li:hover {
+    opacity: 0.9;
+}
+
+#rules li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: circle;
+}
+
+.coc-listing:hover {
+    opacity: 0.8;
+}
+
+#table-of-contents {
+    position: fixed; right: 0px; top: 5%;
+    display: grid;
+    width: 15%;
+    border-left: 1px solid rgba(255, 255, 255, 0.404);
+
+    padding-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }

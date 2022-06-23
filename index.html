@@ -2,67 +2,88 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
 
         <title>Hive Roleplay</title>
 
-        <script src="./libs/jquery.min.js"></script>
-
         <link rel="stylesheet" href="./css/index.css">
-
+        
         <link rel="icon" href="./assets/favicon.ico">
-
+        
         <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+        <script src="./libs/jquery.min.js"></script>
+        
+        <!-- Bootstrap -->
+		<link rel="stylesheet" href="./libs/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </head>
 
-    <body>
-        <div id="header-div">
-            <h1 id="header-name">HIVE ROLEPLAY</h1>
-            <img id="header-img" src="./assets/headerimg.jpg">
-            <a id="header-btn" href="fivem://connect/cfx.re/join/kxab3r">Join Now</a>
-        </div>
-        <!-- <h1 id="header-txt">HIVE ROLEPLAY</h1> -->
+    <body style="overflow: hidden;">
+        <div id="page-bg"></div>
 
-        <div id="content">
+        <img id="navbar-icon" src="./assets/hivelogo.png">
 
-            <div id="navbar">
-                <a id="nav-btn" href="./about.html">ABOUT US</a>
-                <a id="nav-btn" href="./rules.html">RULES</a>
-                <a id="nav-btn" href="./apply.html">APPLY</a>
-                <img id="nav-img" src="./assets/hivelogo_512.png">
-                <a id="nav-btn" href="https://discord.gg/8JjR4zfeKT" target="_blank">DISCORD</a>
-                <a id="nav-btn" href="./changelogs.html">CHANGELOGS</a>
-                <a id="nav-btn" href="./keybinds.html">KEYBINDS</a>
-            </div>
+        <div id="SITE-NAVBAR">
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="apply-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">APPLICATIONS</a>
+                            <div class="dropdown-menu" aria-labelledby="apply-dropdown">
+                                <a class="dropdown-item" href="https://forms.gle/7hB2tFGGEq28u2Wa7" target="_blank"><i class="apply-item fas fa-shield-alt"></i>Sheriff</a>
+                                <a class="dropdown-item" href="https://forms.gle/9TtdxVRNKNdRt1VH9" target="_blank"><i class="apply-item fas fa-user-md"></i>EMS</a>
+                                <a class="dropdown-item" href="https://forms.gle/oed475vfAEyDkZLC6" target="_blank"><i class="apply-item fas fa-user-shield"></i>Staff</a>
+                                <a class="dropdown-item" href="https://forms.gle/Kmd1XTEbmZTebkEr8" target="_blank"><i class="apply-item fas fa-file-code"></i>Developer</a>
+                            </div>
+                        </li>
 
-            
-            <div id="ss-grid">
-                <div id="grid-card">
-                    <i class="fas fa-users fa-5x"></i>
-                    <p style="font-size: 0.9vw; padding-bottom: 60px;">San Andreas is thriving! From the bustling streets of Downtown Los Santos, to the farmlands of Grapeseed, to the lavish streets of Vinewood, there is something for everyone. Job postings are flooding the local paper, and business is booming! Whether you want to fish your days away or help people get behind the wheel of their dream car, opportunities are endless here at Hive. So how are you going to pay the bills? Click the ‘Join’ Button below to see what profession is right for you!</p>
-                    <a id="card-btn" href="fivem://connect/cfx.re/join/kxab3r">JOIN</a>
+                        <li class="nav-item"> <a class="nav-link" href="./rules.html">RULES</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT US</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="./keybinds.html">KEYBINDS</a> </li>
+                        <!-- <li class="nav-item"> <a class="nav-link" href="./changelogs.html">CHANGELOGS</a> </li> -->
+                        <li class="nav-item"> <a class="nav-link" href="https://ko-fi.com/hiverp" target="_blank">SUPPORT</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://discord.gg/hive-rp" target="_blank">DISCORD</a> </li>
+                    </ul>
                 </div>
-
-                <div id="grid-card">
-                    <i class="fas fa-user-secret fa-5x"></i>
-                    <p style="font-size: 0.9vw; padding-bottom: 60px;">Feeling Mischievous? Less than legal opportunities await those willing to get their hands dirty. Here at Hive, we understand and support those who want to make a living off of an interdicted manner. There are many different avenues one can travel down to reach your goals, but can you get away with it? Click the ‘Join’ Button below to see what shenanigans you can get into!</p>
-                    <a id="card-btn" href="fivem://connect/cfx.re/join/kxab3r">JOIN</a>
-                </div>
-
-                <div id="grid-card">
-                    <i class="fas fa-hands-helping fa-5x"></i>
-                    <p style="font-size: 0.9vw; padding-bottom: 60px;">Serving the Community constitutes dedication, but returns a sense of accomplishment. The safety and wellbeing of all citizens is a responsibility that is taken very seriously. From Law Enforcement to Emergency Medical Services, the Hive Community prides itself in promoting a safe and secure San Andreas for everyone to enjoy and are ready to answer whatever call may come. Click the ‘Join’ Button below to see the services available!</p>
-                    <a id="card-btn" href="./apply.html">JOIN</a>
-                </div>
-                
-            </div>
-
-            <div id="footer">
-                <img id="footer-img" src="./assets/hivelogo_512.png">
-                <p id="footer-txt">Made by Dimmies</p>
-            </div>
+                <i id="nav-burger" class="fas fa-bars" style="font-size: 30px;" onclick="ShowMobileNav()"></i>
+            </nav>
         </div>
 
+        <div id="mobile-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"> <a class="nav-link" href="./apply.html"> APPLY </a> </li>
+                <li class="nav-item"> <a class="nav-link" href="./rules.html">RULES</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT US</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="./keybinds.html">KEYBINDS</a> </li>
+                <!-- <li class="nav-item"> <a class="nav-link" href="./changelogs.html">CHANGELOGS</a> </li> -->
+                <li class="nav-item"> <a class="nav-link" href="https://ko-fi.com/hiverp" target="_blank">SUPPORT</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="https://discord.gg/hive-rp" target="_blank">DISCORD</a> </li>
+            </ul>
+        </div>
+        
+        <div id="page-body">
+            <h1 id="title">HIVE</h1>
+            <h2 id="subtitle">ROLEPLAY</h2>
+
+            <div style="height: 50px;"></div>
+            <img style="opacity: 0.5; width: 30%;" src="./assets/pgbreak.png">
+            <div style="height: 50px;"></div>
+
+
+            <div id="title-desc-div">
+                <p id="title-desc">San Andreas is thriving! From the bustling streets of Downtown Los Santos, to the farmlands of Grapeseed, to the lavish streets of Vinewood, there is something for everyone. Job postings are flooding the local paper, and business is booming! Whether you want to fish your days away or help people get behind the wheel of their dream car, opportunities are endless here at Hive.</p>
+            </div>
+
+            <a href="https://cfx.re/join/kxab3r" target="_blank"><button id="join-btn"><i class="fas fa-sign-in-alt"></i></button></a>
+        </div>
+
+        <div id="socials">
+            <!-- <div id="twitter" class="social-btn" onclick="LoadSocial('twitter')"> <i class="fab fa-twitter social-icon"></i> Twitter </div> -->
+            <div id="tiktok" class="social-btn" onclick="LoadSocial('tiktok')"> <i class="fab fa-tiktok social-icon"></i> TikTok</div>
+            <div id="youtube" class="social-btn" onclick="LoadSocial('youtube')"> <i class="fab fa-youtube social-icon"></i> YouTube</div>
+            <div id="discord" class="social-btn" onclick="LoadSocial('discord')"> <i class="fab fa-discord social-icon"></i> Discord</div>
+        </div>
 
         <script src="./js/index.js"></script>
     </body>
