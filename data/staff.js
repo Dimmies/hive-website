@@ -119,5 +119,13 @@ let StaffData = {
             twitter: "",
             twitch: "",
         },
+
+        4: {
+            name: "Daz",
+            img: "./assets/staff/daz.png",
+            title: "Admin",
+            twitter: "",
+            twitch: "https://www.twitch.tv/daz_105",
+        },
     },
 }
