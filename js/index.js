@@ -48,6 +48,6 @@ function LoadSocial(type) {
     } else if ( type == "discord" ) {
         window.open('https://discord.gg/hive-rp', '_blank'); return false;
     } else if ( type == "twitter" ) {
-        window.open('', '_blank'); return false;
+        window.open('https://twitter.com/hiverp_', '_blank'); return false;
     }
 }
