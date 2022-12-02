@@ -29,6 +29,10 @@ body {
     margin: 15px 5px 0px 5px;
 }
 
+.fa-twitch:hover, .fa-twitter:hover {
+    color: #e2b64e;
+}
+
 #user-socials {
     min-height: 30px;
 }

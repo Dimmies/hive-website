@@ -38,8 +38,16 @@ let StaffData = {
             name: "Zeuz",
             img: "./assets/staff/zeuz.png",
             title: "Graphic Designer",
-            twitter: "https://www.twitch.tv/zeuzible",
-            twitch: "",
+            twitter: "",
+            twitch: "https://www.twitch.tv/zeuzible",
+        },
+
+        2: {
+            name: "Clover",
+            img: "./assets/staff/clover.png",
+            title: "Graphic Designer",
+            twitter: "",
+            twitch: "https://www.twitch.tv/cloverism",
         },
     },
 
@@ -63,14 +71,6 @@ let StaffData = {
     
     hadmins: {
         0: {
-            name: "Brody",
-            img: "./assets/staff/brody.png",
-            title: "Head Admin",
-            twitter: "https://twitter.com/xBrodyxS",
-            twitch: "https://www.twitch.tv/xbrodyxs",
-        },
-
-        1: {
             name: "Pyotr",
             img: "./assets/staff/pyotr.png",
             title: "Head Admin",
@@ -78,7 +78,7 @@ let StaffData = {
             twitch: "",
         },
 
-        2: {
+        1: {
             name: "FootSoldierZ",
             img: "./assets/staff/footsoldierz.png",
             title: "Head Admin",
@@ -126,6 +126,14 @@ let StaffData = {
             title: "Admin",
             twitter: "",
             twitch: "https://www.twitch.tv/daz_105",
+        },
+
+        4: {
+            name: "Chromello",
+            img: "./assets/staff/chromello.png",
+            title: "Admin",
+            twitter: "https://twitter.com/ChromelloTV",
+            twitch: "https://www.twitch.tv/chromello",
         },
     },
 }
