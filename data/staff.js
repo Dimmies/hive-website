@@ -33,22 +33,6 @@ let StaffData = {
             twitter: "https://twitter.com/DimmiesTV",
             twitch: "https://www.twitch.tv/dimmiestv",
         },
-
-        1: {
-            name: "Zeuz",
-            img: "./assets/staff/zeuz.png",
-            title: "Graphic Designer",
-            twitter: "",
-            twitch: "https://www.twitch.tv/zeuzible",
-        },
-
-        2: {
-            name: "Clover",
-            img: "./assets/staff/clover.png",
-            title: "Graphic Designer",
-            twitter: "",
-            twitch: "https://www.twitch.tv/cloverism",
-        },
     },
 
     cm: {
@@ -89,51 +73,11 @@ let StaffData = {
 
     admins: {
         0: {
-            name: "Zeuz",
-            img: "./assets/staff/zeuz.png",
-            title: "Admin",
-            twitter: "https://www.twitch.tv/zeuzible",
-            twitch: "",
-        },
-
-        1: {
-            name: "Clover",
-            img: "./assets/staff/clover.png",
-            title: "Admin",
-            twitter: "",
-            twitch: "https://www.twitch.tv/cloverism",
-        },
-
-        2: {
-            name: "Anj",
-            img: "./assets/staff/anj.png",
-            title: "Admin",
-            twitter: "",
-            twitch: "https://www.twitch.tv/anjulie_gaming",
-        },
-
-        3: {
-            name: "Killjoy",
-            img: "./assets/staff/killjoy.png",
-            title: "Admin",
-            twitter: "",
-            twitch: "",
-        },
-
-        4: {
             name: "Daz",
             img: "./assets/staff/daz.png",
             title: "Admin",
             twitter: "",
             twitch: "https://www.twitch.tv/daz_105",
-        },
-
-        4: {
-            name: "Chromello",
-            img: "./assets/staff/chromello.png",
-            title: "Admin",
-            twitter: "https://twitter.com/ChromelloTV",
-            twitch: "https://www.twitch.tv/chromello",
         },
     },
 }
