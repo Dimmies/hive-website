@@ -22,7 +22,7 @@ button { cursor: pointer; }
     position: absolute;
 
     background-attachment: fixed;
-    background: url('../assets/HOME\ PAGE\ 2.jpg');
+    background: url('../assets/thankyou.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
